@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-body {
-    background-color: rgba(176, 176, 176, 0.4);
+html, body {
     background-color: white;
+    font-size: 0.85vw;
 }
 
 
@@ -33,10 +36,18 @@ body {
 }
 
 .nav__list li a {
-    font-size: 20px;
+    font-size: 1rem;
     text-decoration: none;
     color: rgb(30, 30, 73);   
     font-weight: 700;
+
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800; /* Замените <weight> на конкретное значение */
+    font-style: normal;
+
+
+    font-size: 16px;
 }
 
 .nav__list li {
@@ -48,8 +59,9 @@ body {
 /* Header Start */
 
 .header {
+    display: flex;
     width: 100vw;
-    height: 51rem;
+    height: 80vh;
     background-image: url('../images/header-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,36 +69,46 @@ body {
 
 }
 
-.header {
-    display: flex;
-}
-
 .container {
     margin: 2.5rem auto 0 auto;
+    margin: 40px auto 0 auto;
     min-width: 1200px;
 }
 
 .header-logo {
     margin-top: 4.5rem;
+    margin-top: 77px;
 }
 
 .container h1 {
-    margin-top: 6.5rem;
+    margin-top: 6rem;
     font-weight: 900;
-    font-size: 6.7rem;
+    font-family: "Archivo Black", sans-serif;
+    font-style: normal;
+    font-size: 5rem;
     color: white;
+
+    margin-top: 105px;
+    font-size: 80px;
 }
 
 .container p {
-    margin-top: 1.6rem;
+    margin-top: 1rem;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-top: 30px;
+    font-size: 32px;
 }
 
 .header-subscribe {
     width: 200px;
-    margin-top: 4rem;
+    margin-top: 3rem;
+    margin-top: 50px;
 }
 
 .header-subscribe p {
@@ -96,6 +118,78 @@ body {
 
 .header-subscribe a img {
     width: 3rem;
+    width: 50px;
     margin-left: 3px;
+}
+
+
+
+
+
+
+
+/* СЕКЦИЯ 1*/
+
+.sec__one {
+    display: flex;
+    width: 100vw;
+}
+
+.sec__one .container {
+    margin: auto auto;
+    min-width: 1100px;
+    max-width: 1100px;
+    height: 800px;
+}
+
+.sec__one .container h1 {
+    color: black; 
+    margin-top: 5.3rem;
+    margin-bottom: 4.7rem;
+    font-weight: 900;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.8rem;
+
+    font-size: 78px;
+    margin-top: 85px;
+    margin-bottom: 77px;
+}
+
+
+
+.grid__con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+
+.text__sec__one p {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(16, 16, 16);
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+}
+
+.btn__one {
+    display: inline-block;
+    margin-top: 49px;
+    padding: 18px 69px;
+    background-color: #7C716C;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 90px;
+
+    font-size: 21px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 

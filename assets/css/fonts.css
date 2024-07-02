@@ -1,48 +1,35 @@
-.merriweather-light {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
+
+/* ДЛЯ АНГ */
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
-  
-.merriweather-regular {
-    font-family: "Merriweather", serif;
+
+
+/* ДЛЯ КРУПНОГО ТЕКСТА */
+.dela-gothic-one-regular {
+    font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
   
-.merriweather-bold {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
+
+
+/* ДЛЯ НАВИГАЦИОННОЙ ПАНЕЛИ СВЕРХУ */
+.exo-2-unique {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Замените <weight> на конкретное значение */
     font-style: normal;
 }
-  
-.merriweather-black {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
+
+
+
+/* ДЛЯ ТЕКСТА */
+.overpass-unique {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
     font-style: normal;
 }
-  
-.merriweather-light-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: italic;
-}
-  
-.merriweather-regular-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: italic;
-}
-  
-.merriweather-bold-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-}
-  
-.merriweather-black-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: italic;
-}
-  

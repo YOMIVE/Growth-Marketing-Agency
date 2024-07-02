@@ -10,6 +10,7 @@
 html, body {
     background-color: white;
     font-size: 0.85vw;
+    overflow-x: hidden;
 }
 
 
@@ -137,8 +138,8 @@ html, body {
 
 .sec__one .container {
     margin: auto auto;
-    min-width: 1100px;
     max-width: 1100px;
+    min-width: 1100px;
     height: 800px;
 }
 
@@ -213,3 +214,145 @@ html, body {
     font-style: normal;
 }
 
+
+
+
+
+
+
+
+/* СЕКЦИЯ 3 */
+
+.sec__three {
+    width: 100vw;
+    height: 768px;
+    display: flex;
+    background-image: url('../images/sec-three-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec__three .container {
+    display: flex;
+    position: relative;
+    width: 1100px;
+}
+
+.sec__three h2 {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin: auto auto;
+}
+
+.sec__three img {
+    width: 77px;
+    height: 81px;
+    position: absolute;
+    bottom: 75px;
+    right: 20px;
+}
+
+
+
+/* СЕКЦИЯ 4 УСЛУГИ */
+
+
+.services {
+    display: flex;
+    width: 100vw;
+
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.services .container {
+    margin: auto auto;
+    max-width: 1100px;
+    min-width: 1100px;
+    height: 1130px;
+}
+
+.services .container h2 {
+    font-size: 77px;
+    margin-top: 65px;
+
+}
+
+
+
+.ser__grid {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+}
+
+.ser__el img {
+    width: 222px;
+    height: 222px;
+    border-radius: 45px;
+}
+
+.ser__el p {
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    line-height: 1.5;
+}
+
+.ser__el p b {
+    color: black;
+    font-size: 19px;
+    font-weight: 900;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.ser__btn__center {
+    display: flex;
+    justify-content: center;
+}
+
+.btn__ser {
+    margin: 60px auto 50px auto;
+}
+
+
+/* СЕКЦИЯ 5 */
+
+.sec__five {
+    width: 100vw;
+    height: 768px;
+    display: flex;
+    background-image: url('../images/sec-five-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec__five .container {
+    display: flex;
+    position: relative;
+    width: 1100px;
+}
+
+.sec__five h2 {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin: auto auto;
+}
+
+.sec__five img {
+    width: 77px;
+    height: 81px;
+    position: absolute;
+    bottom: 75px;
+    right: 20px;
+}

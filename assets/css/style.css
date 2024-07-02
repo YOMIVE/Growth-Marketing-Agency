@@ -154,7 +154,7 @@ html, body {
 
     font-size: 78px;
     margin-top: 85px;
-    margin-bottom: 77px;
+    margin-bottom: 65px;
 }
 
 
@@ -162,10 +162,29 @@ html, body {
 .grid__con {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+}
 
+.photos__sec__one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.photos__sec__one img {
+    width: 222px;
+    height: 222px;
+    border-radius: 45px;
+}
+
+.sec__two__last__img {
+    display: block;
+    margin-top: 132px;
 }
 
 
+.sec__one__first__text {
+    margin-bottom: 30px;
+}
 
 .text__sec__one p {
     font-family: "Overpass", sans-serif;
@@ -175,6 +194,7 @@ html, body {
     color: rgb(16, 16, 16);
     font-size: 1.4rem;
     letter-spacing: 2px;
+    margin-top: 0;
 }
 
 .btn__one {

@@ -14,6 +14,52 @@ html, body {
 }
 
 
+
+/* GLOBAL */
+.left_li {
+    padding-left: 2rem;
+}
+
+
+.central_p {
+    margin: 2rem 0 2rem 0;
+}
+
+.bottom_p {
+    margin: 0 0 2rem 0;
+}
+
+
+.block_1 {
+    width: 100vw;
+    height: 768px;
+    display: flex;
+    background-image: url('../images/sec-three-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.block_1 .container {
+    display: flex;
+    position: relative;
+    width: 1100px;
+}
+.block_1 h2 {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin: auto auto;
+}
+.block_1 img {
+    width: 77px;
+    height: 81px;
+    position: absolute;
+    bottom: 75px;
+    right: 20px;
+}
+
+
+
 /* NAV PANEl START */
 
 .nav__panel {
@@ -26,16 +72,13 @@ html, body {
     align-items: center;
     z-index: 10;
 }
-
 .nav__list {
     display: flex;
     /* padding-right: 1rem; */
 }
-
 .nav__list li {
     list-style: none;
 }
-
 .nav__list li a {
     font-size: 1rem;
     text-decoration: none;
@@ -50,12 +93,14 @@ html, body {
 
     font-size: 16px;
 }
-
 .nav__list li {
     margin-right: 2.1rem
 }
 
 /* NAV PANEL END */
+
+
+
 
 /* Header Start */
 
@@ -69,18 +114,15 @@ html, body {
     background-position: center; /* Горизонтальное отражение */
 
 }
-
 .container {
     margin: 2.5rem auto 0 auto;
     margin: 40px auto 0 auto;
     min-width: 1200px;
 }
-
 .header-logo {
     margin-top: 4.5rem;
     margin-top: 77px;
 }
-
 .container h1 {
     margin-top: 6rem;
     font-weight: 900;
@@ -92,7 +134,6 @@ html, body {
     margin-top: 105px;
     font-size: 80px;
 }
-
 .container p {
     margin-top: 1rem;
     font-weight: 500;
@@ -105,18 +146,15 @@ html, body {
     margin-top: 30px;
     font-size: 32px;
 }
-
 .header-subscribe {
     width: 200px;
     margin-top: 3rem;
     margin-top: 50px;
 }
-
 .header-subscribe p {
     font-size: 20px;
     margin-bottom: 3px;
 }
-
 .header-subscribe a img {
     width: 3rem;
     width: 50px;
@@ -135,14 +173,12 @@ html, body {
     display: flex;
     width: 100vw;
 }
-
 .sec__one .container {
     margin: auto auto;
     max-width: 1100px;
     min-width: 1100px;
     height: 800px;
 }
-
 .sec__one .container h1 {
     color: black; 
     margin-top: 5.3rem;
@@ -165,18 +201,15 @@ html, body {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 100px;
 }
-
 .photos__sec__one {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 .photos__sec__one img {
     width: 222px;
     height: 222px;
     border-radius: 45px;
 }
-
 .sec__two__last__img {
     display: block;
     margin-top: 132px;
@@ -186,7 +219,6 @@ html, body {
 .sec__one__first__text {
     margin-bottom: 30px;
 }
-
 .text__sec__one p {
     font-family: "Overpass", sans-serif;
     font-optical-sizing: auto;
@@ -197,7 +229,6 @@ html, body {
     letter-spacing: 2px;
     margin-top: 0;
 }
-
 .btn__one {
     display: inline-block;
     margin-top: 49px;
@@ -220,39 +251,6 @@ html, body {
 
 
 
-
-/* СЕКЦИЯ 3 */
-
-.sec__three {
-    width: 100vw;
-    height: 768px;
-    display: flex;
-    background-image: url('../images/sec-three-bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.sec__three .container {
-    display: flex;
-    position: relative;
-    width: 1100px;
-}
-
-.sec__three h2 {
-    color: white;
-    font-size: 70px;
-    text-align: center;
-    margin: auto auto;
-}
-
-.sec__three img {
-    width: 77px;
-    height: 81px;
-    position: absolute;
-    bottom: 75px;
-    right: 20px;
-}
 
 
 
@@ -327,32 +325,66 @@ html, body {
 /* СЕКЦИЯ 5 */
 
 .sec__five {
-    width: 100vw;
-    height: 768px;
-    display: flex;
     background-image: url('../images/sec-five-bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
-.sec__five .container {
+
+
+/* МАСТЕР ГРУППА СТАРСТ */
+
+.master__group {
     display: flex;
-    position: relative;
+}
+.master__group .container {
     width: 1100px;
+    min-width: inherit;
+    margin-top: 0;
+}
+.master__group .container h2 {
+    font-size: 77px;
+    margin-top: 66px;
+    margin-bottom: 66px;
+
 }
 
-.sec__five h2 {
-    color: white;
-    font-size: 70px;
-    text-align: center;
-    margin: auto auto;
+.master__group .container h3 {
+    font-size: 31px;
+    letter-spacing: 1.1;
 }
 
-.sec__five img {
-    width: 77px;
-    height: 81px;
-    position: absolute;
-    bottom: 75px;
-    right: 20px;
+.master__group .container h4 {
+    font-size: 21px;
+}
+
+.master__group .container p {
+    color: black;
+    font-size: 21px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Замените <weight> на конкретное значение */
+    font-style: normal;
+}
+.master__group .container ul li {
+    color: black;
+    font-size: 21px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Замените <weight> на конкретное значение */
+    font-style: normal;
+}
+
+.mas__gr__center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mas__gr__center h3 {
+    margin-top: 2rem;
+}
+.mas__gr__center a {
+    max-width: 275px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }

@@ -1,0 +1,45 @@
+.nav__list li a {
+    display: inline-block;
+    transition: 0.5s ease;
+    transform: translateY(0);
+}
+.nav__list li a:hover {
+    transform: translateY(-2px);
+    
+}
+
+
+.header-subscribe a {
+    display: inline-block;
+    transition: 0.7s ease;
+    transform: translateY(0);
+}
+.header-subscribe a:hover {
+    transform: translateY(-4px);
+    filter: drop-shadow(0 0px 6px rgba(255, 101, 101, 0.55));
+}
+
+
+.btn__one {
+    display: inline-block;
+    transition: 0.5s ease;
+    transform: translateY(0);
+    border: solid 3px #7C716C;
+}
+
+.btn__one:hover {
+    transform: translateY(-5px);
+    filter: drop-shadow(0 7px 10px #85807e7c);
+    color: #7C716C;
+    background-color: white;
+    border: solid 3px #7C716C;
+
+}
+
+
+
+
+
+
+
+

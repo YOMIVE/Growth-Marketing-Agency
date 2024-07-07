@@ -16,21 +16,29 @@ html, body {
 
 
 /* GLOBAL */
-.left_li {
+.left__li {
     padding-left: 2rem;
 }
 
 
-.central_p {
+.m0 {
+    margin: 0;
+}
+
+.central__p {
     margin: 2rem 0 2rem 0;
 }
 
-.bottom_p {
+.bottom__p {
     margin: 0 0 2rem 0;
 }
 
+.no__dec__li {
+    list-style: none;
+}
 
-.block_1 {
+
+.block__1 {
     width: 100vw;
     height: 768px;
     display: flex;
@@ -39,18 +47,18 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
 }
-.block_1 .container {
+.block__1 .container {
     display: flex;
     position: relative;
     width: 1100px;
 }
-.block_1 h2 {
+.block__1 h2 {
     color: white;
     font-size: 70px;
     text-align: center;
     margin: auto auto;
 }
-.block_1 img {
+.block__1 img {
     width: 77px;
     height: 81px;
     position: absolute;
@@ -138,7 +146,6 @@ html, body {
     margin-top: 1rem;
     font-weight: 500;
     font-size: 2rem;
-    color: white;
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -341,7 +348,7 @@ html, body {
     margin-top: 0;
 }
 .master__group .container h2 {
-    font-size: 77px;
+    font-size: 70px;
     margin-top: 66px;
     margin-bottom: 66px;
 
@@ -358,7 +365,7 @@ html, body {
 
 .master__group .container p {
     color: black;
-    font-size: 21px;
+    font-size: 25px;
     font-family: "Exo 2", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400; /* Замените <weight> на конкретное значение */
@@ -366,7 +373,7 @@ html, body {
 }
 .master__group .container ul li {
     color: black;
-    font-size: 21px;
+    font-size: 25px;
     font-family: "Exo 2", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400; /* Замените <weight> на конкретное значение */
@@ -387,4 +394,193 @@ html, body {
     max-width: 275px;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+
+
+
+
+/* СЕКЦИЯ 7 */
+
+.sec__seven {
+    background-image: url('../images/sec-seven-bg.png');
+}
+
+
+
+/* ОБО МНЕ */
+.about {
+    display: flex;
+}
+
+.about .container {
+    width: 1100px;
+    min-width: inherit;
+    margin-top: 0;
+}
+
+.about .container h2 {
+    font-size: 70px;
+    margin-top: 66px;
+    margin-bottom: 66px;
+}
+
+
+.about__first__g {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.left {
+    width: 780px;
+}
+.about__children h3 {
+    margin-bottom: 0;
+    font-size: 26px;
+    letter-spacing: 1.1px;
+}
+
+.about__children p {
+    color: black;
+    font-size: 22px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Замените <weight> на конкретное значение */
+    font-style: normal;
+    letter-spacing: 1.1px;
+}
+.about__children ul {
+    margin-top: 0;
+}
+
+.about__children ul li {
+    color: black;
+    font-size: 22px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Замените <weight> на конкретное значение */
+    font-style: normal;
+    letter-spacing: 1.1px;
+}
+
+.about__dio p {
+    color: black;
+    font-size: 22px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Замените <weight> на конкретное значение */
+    font-style: normal;
+    letter-spacing: 1.1px;
+}
+
+.about__dio img {
+    margin-top: -20px;
+    margin-left: 25px;
+    width: 286px;
+    height: 286px;
+    border-radius: 45px;
+}
+
+
+.about__second__g {
+    display: grid;
+    grid-template-columns: auto auto;
+    max-height: 286px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.about__second__g img {
+    margin-top: 0;
+    margin-left: 0;
+    width: 286px;
+    height: 286px;
+    border-radius: 45px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.right.about__children .for__center h3 {
+    font-size: 20px;
+}
+
+.right.about__children .for__center p {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+
+
+
+/* КОНТАКТЫ НАЧАЛО */
+
+.contacts {
+    margin-top: 150px;
+    display: flex;
+}
+
+.contacts .container {
+    width: 1100px;
+    min-width: inherit;
+    margin-top: 0;
+}
+
+.contacts .container h2 {
+    font-size: 70px;
+    margin-bottom: 150px;
+}
+
+.contacts__g {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+
+}
+
+
+.con__left {
+    width: 520px;
+}
+.con__left h3 {
+    font-size: 30px;
+}
+.con__left p {
+    font-size: 23px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    color: #868686;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+}
+
+.con__right {
+    display: flex;
+}
+
+.con__right img {
+    width: 268px;
+    height: 268px;
+    border-radius: 45px;
+    display: block;
+}
+
+.con__ph__first {
+    margin-top: 40px;
+}
+
+
+.con__ph__second {
+    margin-top: -80px;
+    margin-left: 80px;
+}
+
+
+.contacts .container .header-subscribe {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 80px;
 }

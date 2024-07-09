@@ -9,15 +9,19 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     const elements = document.querySelectorAll('.el');
+    const visibilityThreshold = 0.5; // 10% видимости элемента
 
     const checkVisibility = () => {
-    elements.forEach(el => {
-        const rect = el.getBoundingClientRect();
-        if (rect.top >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)) {
-        el.classList.add('visible');
-        } else {
-        }
-    });
+        elements.forEach(el => {
+            const rect = el.getBoundingClientRect();
+            const elementHeight = rect.bottom - rect.top;
+            const elementVisible = Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0);
+            const visiblePercentage = elementVisible / elementHeight;
+    
+            if (visiblePercentage > visibilityThreshold) {
+                el.classList.add('visible');
+            }
+        });
     };
 
     window.addEventListener('scroll', checkVisibility);

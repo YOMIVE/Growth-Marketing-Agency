@@ -39,5 +39,42 @@
 
 
 
+.el {
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+  
+.el.t {
+    transform: translateY(-100px);
+}
+.el.t-m {
+    transform: translateY(-50px);
+}
 
+.el.b {
+    transform: translateY(100px);
+}
+.el.b-m {
+    transform: translateY(50px);
+}
+
+.el.l {
+    transform: translateX(-100px);
+}
+  
+.el.r {
+    transform: translateX(100px);
+}
+  
+.el.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.el.b.ph__sec__one__2 {
+    display: inline-block;
+    margin-top: 177px;
+}
 

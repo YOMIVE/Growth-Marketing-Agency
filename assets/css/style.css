@@ -18,6 +18,9 @@ p {
     src: url('../fonts/cy-grotesk-grand-dark.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
+
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
 }
 
 
@@ -76,7 +79,6 @@ p {
 
 
 /* NAV PANEl START */
-
 .nav__panel {
     background-color: white;
     position: fixed;
@@ -181,7 +183,6 @@ p {
 
 
 /* СЕКЦИЯ 1*/
-
 .sec__one {
     display: flex;
     width: 100vw;
@@ -200,7 +201,6 @@ p {
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 4.8rem;
 
     font-size: 78px;
     margin-top: 85px;
@@ -238,7 +238,7 @@ p {
     font-weight: 100;
     font-style: normal;
     color: rgb(16, 16, 16);
-    font-size: 1.4rem;
+    font-size: 22.5px;
     letter-spacing: 2px;
     margin-top: 0;
 }
@@ -277,21 +277,17 @@ p {
     font-weight: 200;
     font-style: normal;
 }
-
 .services .container {
     margin: auto auto;
     max-width: 1100px;
     min-width: 1100px;
     height: 1130px;
 }
-
 .services .container h2 {
     font-size: 77px;
     margin-top: 65px;
-
+    font-weight: 700;
 }
-
-
 
 .ser__grid {
     margin-top: 45px;
@@ -299,13 +295,12 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 50px;
 }
-
 .ser__el img {
     width: 222px;
     height: 222px;
     border-radius: 45px;
+    filter: drop-shadow(0 7px 8px #85807e7c);
 }
-
 .ser__el p {
     color: black;
     font-size: 23px;
@@ -314,7 +309,6 @@ p {
     font-optical-sizing: auto;
     line-height: 1.5;
 }
-
 .ser__el p b {
     color: black;
     font-size: 19px;
@@ -322,12 +316,10 @@ p {
     font-family: "Overpass", sans-serif;
     font-optical-sizing: auto;
 }
-
 .ser__btn__center {
     display: flex;
     justify-content: center;
 }
-
 .btn__ser {
     margin: 60px auto 50px auto;
 }
@@ -341,7 +333,7 @@ p {
 
 
 
-/* МАСТЕР ГРУППА СТАРСТ */
+/* МАСТЕР ГРУППА СТАРТ */
 
 .master__group {
     display: flex;
@@ -355,18 +347,14 @@ p {
     font-size: 70px;
     margin-top: 66px;
     margin-bottom: 66px;
-
 }
-
 .master__group .container h3 {
     font-size: 31px;
     letter-spacing: 1.1;
 }
-
 .master__group .container h4 {
     font-size: 21px;
 }
-
 .master__group .container p {
     color: black;
     font-size: 25px;
@@ -383,14 +371,12 @@ p {
     font-weight: 400; /* Замените <weight> на конкретное значение */
     font-style: normal;
 }
-
 .mas__gr__center {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
 .mas__gr__center h3 {
     margin-top: 2rem;
 }
@@ -526,26 +512,21 @@ p {
     margin-top: 150px;
     display: flex;
 }
-
 .contacts .container {
     width: 1100px;
     min-width: inherit;
     margin-top: 0;
 }
-
 .contacts .container h2 {
     font-size: 70px;
     margin-bottom: 150px;
 }
-
 .contacts__g {
     display: grid;
     grid-template-columns: auto auto;
     grid-column-gap: 10px;
 
 }
-
-
 .con__left {
     width: 520px;
 }
@@ -560,29 +541,22 @@ p {
     font-family: "Exo 2", sans-serif;
     font-weight: 500;
 }
-
 .con__right {
     display: flex;
 }
-
 .con__right img {
     width: 268px;
     height: 268px;
     border-radius: 45px;
     display: block;
 }
-
 .con__ph__first {
     margin-top: 40px;
 }
-
-
 .con__ph__second {
     margin-top: -80px;
     margin-left: 80px;
 }
-
-
 .contacts .container .header-subscribe {
     margin-top: 0;
     margin-left: 0;

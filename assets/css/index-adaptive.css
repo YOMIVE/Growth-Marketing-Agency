@@ -1,0 +1,435 @@
+@media screen and (max-width: 1400px) {
+    /* ANIMATIONS */
+    .el.b.ph__sec__one__2 {
+        display: inline-block;
+        margin-top: 11rem;
+    }
+    /* ANIMATIONS END*/
+
+
+    /* GLOBAL START */
+
+    .btn__one {
+        display: inline-block;
+        margin-top: 3rem;
+        padding: 1.2rem 5.2rem;
+        background-color: #7C716C;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5rem;
+
+        font-size: 1.5rem;
+        font-family: "Overpass", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+
+    .block__1 {
+        width: 100vw;
+        height: 55rem;
+        display: flex;
+        background-image: url('../images/sec-three-bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .block__1 .container {
+        display: flex;
+        position: relative;
+        width: 80vw;
+    }
+    .block__1 h2 {
+        color: white;
+        font-size: 4.4rem;
+        text-align: center;
+        margin: auto auto;
+    }
+    .block__1 img {
+        width: 4.8rem;
+        height: 5rem;
+        position: absolute;
+        bottom: 4.7rem;
+        right: 1.3rem;
+    }
+    /* GLOBAL END */
+
+    
+    body {
+        /* background: red; */
+    }
+
+
+    /* Header Start */
+    .header {
+        display: flex;
+        width: 100vw;
+        height: 65rem;
+        background-image: url('../images/header-bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; /* Горизонтальное отражение */
+
+    }
+    .container {
+        margin: 2.5rem auto 0 auto;
+        min-width: 82vw;
+    }
+    .header-logo {
+        margin-top: 7rem;
+    }
+    .container h1 {
+        margin-top: 9rem;
+        font-weight: 900;
+        font-family: "Archivo Black", sans-serif;
+        font-style: normal;
+        font-size: 6.5rem;
+        color: white;
+    }
+    .container p {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .header-subscribe {
+        width: 12rem;
+        margin-top: 5rem;
+    }
+    .header-subscribe p {
+        font-size: 1.3rem;
+    }
+    .header-subscribe a img {
+        width: 4.5rem;
+        margin-left: 0.2rem;
+    }
+    /* HEADER END */ 
+
+
+    /* СЕКЦИЯ 1*/
+    .sec__one {
+        display: flex;
+        width: 100vw;
+    }
+    .sec__one .container {
+        margin: auto auto;
+        max-width: 80vw;
+        min-width: 80vw;
+        height: 50rem;
+    }
+    .sec__one .container h1 {
+        color: black; 
+        margin-top: 5.3rem;
+        margin-bottom: 4.7rem;
+        font-weight: 900;
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4.8rem;
+    }
+    .grid__con {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 6rem;
+    }
+    .photos__sec__one {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: -2rem;
+    }
+    .photos__sec__one img {
+        width: 17rem;
+        height: 17rem;
+        border-radius: 2.8rem;
+    }
+    .sec__two__last__img {
+        display: block;
+        margin-top: 1rem;
+    }
+    .sec__one__first__text {
+        margin-bottom: 1.9rem;
+    }
+    .text__sec__one p {
+        font-family: "Overpass", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+        color: rgb(16, 16, 16);
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        margin-top: 0;
+    }
+
+
+    /* SERVICES START*/
+    .services {
+        display: flex;
+        width: 100vw;
+
+        font-family: "Overpass", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+    .services .container {
+        margin: auto auto;
+        max-width: 80vw;
+        min-width: 80vw;
+        height: 77rem;
+    }
+    .services .container h2 {
+        font-size: 4.8rem;
+        margin-top: 4rem;
+        font-weight: 700;
+    }
+
+    .ser__grid {
+        margin-top: 2.8rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 3.1rem;
+    }
+    .ser__el img {
+        width: 17rem;
+        height: 17rem;
+        border-radius: 2.8rem;
+    }
+    .ser__el p {
+        color: black;
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: "Overpass", sans-serif;
+        font-optical-sizing: auto;
+        line-height: 1.5;
+    }
+    .ser__el p b {
+        color: black;
+        font-size: 1.2rem;
+        font-weight: 900;
+        font-family: "Overpass", sans-serif;
+        font-optical-sizing: auto;
+    }
+    .ser__btn__center {
+        display: flex;
+        justify-content: center;
+    }
+    .btn__ser {
+        margin: 3.8rem auto 3.2rem auto;
+    }
+
+
+
+    /* МАСТЕР ГРУППА СТАРТ */
+
+    .master__group {
+        display: flex;
+    }
+    .master__group .container {
+        width: 80vw;
+        min-width: inherit;
+        margin-top: 0;
+    }
+    .master__group .container h2 {
+        font-size: 4.4rem;
+        margin-top: 4.1rem;
+        margin-bottom: 4.1rem;
+        font-weight: 700;
+    }
+    .master__group .container h3 {
+        font-size: 2rem;
+        letter-spacing: 1.1;
+        font-weight: 700;
+    }
+    .master__group .container h4 {
+        font-size: 1.8rem;
+    }
+    .master__group .container p {
+        color: black;
+        font-size: 1.6rem;
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400; /* Замените <weight> на конкретное значение */
+        font-style: normal;
+    }
+    .master__group .container ul li {
+        color: black;
+        font-size: 1.6rem;
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400; /* Замените <weight> на конкретное значение */
+        font-style: normal;
+    }
+
+    .mas__gr__center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mas__gr__center h3 {
+        margin-top: 2rem;
+    }
+    .mas__gr__center a {
+        max-width: 17.2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+
+
+
+    /* ABOUT ME */
+
+    .about {
+        display: flex;
+    }
+    .about .container {
+        width: 80vw;
+        min-width: inherit;
+        margin-top: 0;
+    }
+    .about .container h2 {
+        font-size: 4.2rem;
+        margin-top: 4.2rem;
+        margin-bottom: 4.2rem;
+    }
+    .about__first__g {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .left {
+        width: 65rem;
+    }
+    .about__children h3 {
+        margin-bottom: 0;
+        font-size: 1.9rem;
+        letter-spacing: 1.1px;
+    }
+    .about__children p {
+        color: black;
+        font-size: 1.8rem;
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400; /* Замените <weight> на конкретное значение */
+        font-style: normal;
+        letter-spacing: 1.1px;
+    }
+    .about__children ul {
+        margin-top: 0;
+    }
+    .about__children ul li {
+        color: black;
+        font-size: 1.8rem;
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400; /* Замените <weight> на конкретное значение */
+        font-style: normal;
+        letter-spacing: 1.1px;
+    }
+    .about__dio p {
+        color: black;
+        font-size: 1.8rem;
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400; /* Замените <weight> на конкретное значение */
+        font-style: normal;
+        letter-spacing: 1.1px;
+    }
+    .about__dio img {
+        margin-top: -2.1rem;
+        margin-left: 2.2rem;
+        width: 22rem;
+        height: 22rem;
+        border-radius: 2.3rem;
+    }
+    .about__second__g {
+        display: grid;
+        grid-template-columns: auto auto;
+        max-height: 22rem;
+        margin-top: 3.5rem;
+        margin-bottom: 3.5rem;
+    }
+    .about__second__g img {
+        margin-top: 0;
+        margin-left: 0;
+        width: 22rem;
+        height: 22rem;
+        border-radius: 2.8rem;
+    }
+    .right {
+        display: flex;
+        align-items: center;
+        margin-left: 2rem;
+    }
+    .right.about__children .for__center h3 {
+        font-size: 1.9rem;
+    }
+    .right.about__children .for__center p {
+        font-size: 1.8rem;
+        margin-top: 1.3rem;
+    }
+    .about__d__1 h3 {
+        font-size: 1.9rem;
+    }
+
+
+
+    /* КОНТАКТЫ НАЧАЛО */
+    .contacts {
+        margin-top: 9.5rem;
+        display: flex;
+    }
+    .contacts .container {
+        width: 80vw;
+        min-width: inherit;
+        margin-top: 0;
+    }
+    .contacts .container h2 {
+        font-size: 70px;
+        margin-bottom: 9.5rem;
+    }
+    .contacts__g {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 0.6rem;
+    }
+    .con__left {
+        width: 40rem;
+    }
+    .con__left h3 {
+        font-size: 2rem;
+    }
+    .con__left p {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 5rem;
+        color: #868686;
+        font-family: "Exo 2", sans-serif;
+        font-weight: 500;
+    }
+    .con__right {
+        display: flex;
+    }
+    .con__right img {
+        width: 22rem;
+        height: 22rem;
+        border-radius: 2.8rem;
+        display: block;
+    }
+    .con__ph__first {
+        margin-top: 2.7rem;
+    }
+    .con__ph__second {
+        margin-top: -5rem;
+        margin-left: 5rem;
+    }
+    .contacts .container .header-subscribe {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 5rem;
+    }
+
+}

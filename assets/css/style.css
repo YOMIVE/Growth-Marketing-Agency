@@ -88,6 +88,7 @@ p {
     justify-content: end;
     align-items: center;
     z-index: 10;
+    /* filter: drop-shadow(0 7px 8px #aaa6a47c); */
 }
 .nav__list {
     display: flex;
@@ -222,6 +223,7 @@ p {
     width: 222px;
     height: 222px;
     border-radius: 45px;
+    filter: drop-shadow(0 7px 8px #85807e7c);
 }
 .sec__two__last__img {
     display: block;
@@ -469,6 +471,7 @@ p {
     width: 286px;
     height: 286px;
     border-radius: 45px;
+    filter: drop-shadow(0 7px 8px #85807e7c);
 }
 
 
@@ -486,6 +489,7 @@ p {
     width: 286px;
     height: 286px;
     border-radius: 45px;
+    filter: drop-shadow(0 7px 8px #85807e7c);
 }
 
 .right {
@@ -549,6 +553,7 @@ p {
     height: 268px;
     border-radius: 45px;
     display: block;
+    filter: drop-shadow(0 7px 8px #85807e7c);
 }
 .con__ph__first {
     margin-top: 40px;

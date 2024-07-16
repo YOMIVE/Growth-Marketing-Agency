@@ -30,3 +30,50 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initial check
     checkVisibility();
 });
+
+
+
+
+function scrollToStart() {
+    var element = document.getElementById("main-page");
+    if (element) {
+        element.scrollIntoView();
+    }
+}
+function scrollToContacts() {
+    var element = document.getElementById("contacts");
+    if (element) {
+        element.scrollIntoView();
+    }
+}
+function scrollToAbout() {
+    var element = document.getElementById("about-me");
+    if (element) {
+        element.scrollIntoView();
+    }
+}
+function scrollToMasterGroup() {
+    var element = document.getElementById("master-group");
+    if (element) {
+        element.scrollIntoView();
+    }
+}
+function scrollToServices() {
+    var element = document.getElementById("services");
+    if (element) {
+        element.scrollIntoView();
+    }
+}
+function scrollToMarketingForEveryone() {
+    var element = document.getElementById("marketing-for-everyone");
+    if (element) {
+        element.scrollIntoView();
+    }
+}
+
+
+
+
+
+
+

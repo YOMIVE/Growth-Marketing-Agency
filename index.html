@@ -29,31 +29,31 @@
     <div class="nav__panel" id="nav-panel">
         <div class="content__right">
             <ul class="nav__list">
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Агенство</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Мастер Группа</a></li>
-                <li><a href="#">Обучение</a></li>
-                <li><a href="#">Обо мне</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><button onclick="scrollToStart()">Главная</button></li>
+                <li><button onclick="scrollToMarketingForEveryone()">Агенство</button></li>
+                <li><button onclick="scrollToServices()">Услуги</button></li>
+                <li><button onclick="scrollToMasterGroup()">Мастер Группа</button></li>
+                <!-- <li><button onclick="scrollTo()">Обучение</button></li> -->
+                <li><button onclick="scrollToAbout()">Обо мне</button></li>
+                <li><button onclick="scrollToContacts()">Контакты</button></li>
             </ul>
         </div>
     </div>
 
-    <header class="header">
+    <header class="header" id="main-page">
         <div class="container">
             <img src="assets/images/header-logo.svg" alt="logo" class="header-logo el t">
             <h1 class="el l">Growth Marketing Agency</h1>
             <p class="el l"  style="color: white;">Стратегический маркетинг для малого бизнеса<br>Простая, быстрая методика достижения цели</p>
             <div class="el l header-subscribe">
                 <!-- <p class="header-sub-text">Подпишись:</p> -->
-                <a href="#"><img src="assets/images/inst-icon.png" alt="instagram"></a>
-                <a href="#"><img src="assets/images/youtube-icon.png" alt="youtube"></a>
+                <a href="https://www.instagram.com/growthmarketingme/"><img src="assets/images/inst-icon.png" alt="instagram"></a>
+                <a href="https://www.youtube.com/channel/UCyBKLAE9eeBHhF-DjcQpDcQ"><img src="assets/images/youtube-icon.png" alt="youtube"></a>
             </div>
         </div>
     </header>
 
-    <div class="sec__one">
+    <div class="sec__one" id="marketing-for-everyone">
         <div class="container">
             <h1 class="el t">Маркетинг для всех</h1>
             <div class="grid__con">
@@ -64,7 +64,7 @@
                 <div class="text__sec__one">
                     <p class="el t sec__one__first__text"><b>Анна Рагель</b>, директор <br>маркетинг-стратеджист, человек, погруженный в продажи, консультант по вопросам развития и продвижения проектов оффлайн и онлайн.</p>
                     <p class="el t">“Моё глубокое убеждение - в успешном <br> проекте все действия и процессы должны быть подчинены логике достижения результата наиболее эффективным для компании путём. Всё должно быть чётко настроено, оптимизировано по времени и результативности”.</p>
-                    <a href="#" class="btn__one">Подробнее</a>
+                    <button onclick="scrollToMasterGroup()" class="btn__one">Подробнее</button>
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@
         </div>
     </div>
 
-    <div class="services">
+    <div class="services" id="services">
         <div class="container">
             <h2 class="el l">Услуги</h2>
             <div class="ser__grid">
@@ -117,7 +117,7 @@
     </div>
 
     
-    <div class="master__group">
+    <div class="master__group" id="master-group">
         <div class="container">
             <h2>МАСТЕР ГРУППА</h2>
             <div class="master__group__div__1 el l">
@@ -192,7 +192,7 @@
     </div>
 
 
-    <div class="about">
+    <div class="about" id="about-me">
         <div class="container">
             <h2 class="el l">АННА РАГЕЛЬ</h2>
             <div class="about__first__g about__dio">
@@ -242,7 +242,7 @@
     </div>
 
 
-    <div class="contacts">
+    <div class="contacts" id="contacts">
         <div class="container">
             <h2 class="el l">Контакты</h2>
             <div class="contacts__g">
@@ -261,8 +261,8 @@
             </div>
             <div class="header-subscribe el l">
                 <!-- <p class="header-sub-text">Подпишись:</p> -->
-                <a href="#"><img src="assets/images/inst-icon.png" alt="instagram"></a>
-                <a href="#"><img src="assets/images/youtube-icon.png" alt="youtube"></a>
+                <a href="https://www.instagram.com/growthmarketingme/"><img src="assets/images/inst-icon.png" alt="instagram"></a>
+                <a href="https://www.youtube.com/channel/UCyBKLAE9eeBHhF-DjcQpDcQ"><img src="assets/images/youtube-icon.png" alt="youtube"></a>
             </div>
         </div>
     </div>

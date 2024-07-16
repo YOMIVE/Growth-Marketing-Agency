@@ -5,12 +5,16 @@
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
     font-style: normal;
+
+    scroll-behavior: smooth;   
 }
 
 html, body {
     background-color: white;
     font-size: 0.85vw;
     overflow-x: hidden;
+
+    scroll-behavior: smooth;   
 }
 
 p {
@@ -83,7 +87,7 @@ p {
     background-color: white;
     position: fixed;
     width: 100vw;
-    height: 50px;
+    height: 48px;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -97,7 +101,7 @@ p {
 .nav__list li {
     list-style: none;
 }
-.nav__list li a {
+.nav__list li button {
     font-size: 1rem;
     text-decoration: none;
     color: rgb(30, 30, 73);   
@@ -107,9 +111,9 @@ p {
     font-optical-sizing: auto;
     font-weight: 800; /* Замените <weight> на конкретное значение */
     font-style: normal;
+    background: none;
 
-
-    font-size: 16px;
+    font-size: 15px;
 }
 .nav__list li {
     margin-right: 2.1rem

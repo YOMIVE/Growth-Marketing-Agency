@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная. Growth Marketing Agency</title>
+    <title>Прайс. Growth Marketing Agency</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/animations.css">
     <link rel="stylesheet" href="assets/css/index-adaptive.css">
+    <link rel="stylesheet" href="assets/css/index-phone.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,29 +34,46 @@
                 <li><button onclick="scrollToMarketingForEveryone()">Агенство</button></li>
                 <li><button onclick="scrollToServices()">Услуги</button></li>
                 <li><button onclick="scrollToMasterGroup()">Мастер Группа</button></li>
-                <!-- <li><button onclick="scrollTo()">Обучение</button></li> -->
                 <li><button onclick="scrollToAbout()">Обо мне</button></li>
                 <li><button onclick="scrollToContacts()">Контакты</button></li>
+
+                <li class="hamburger__li"><button onclick="openNavPanel()"><img class="hamburger" src="assets/images/mobile/hamburger-gray.svg" alt=""></button></li>
             </ul>
         </div>
     </div>
+
+    <div class="phone__panel" id="phone-panel">
+        <div class="phone__panel__bg">
+            <div class="panel_con">
+                <ul class="phone__nav__list">
+                    <li><button onclick="scrollToStart()">Главная</button></li>
+                    <li><button onclick="scrollToMarketingForEveryone()">Агенство</button></li>
+                    <li><button onclick="scrollToServices()">Услуги</button></li>
+                    <li><button onclick="scrollToMasterGroup()">Мастер Группа</button></li>
+                    <li><button onclick="scrollToAbout()">Обо мне</button></li>
+                    <li><button onclick="scrollToContacts()">Контакты</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <button class="btn__close" id="btn-close" onclick="closeNavPanel()"></button>
 
     <header class="header" id="main-page">
         <div class="container">
             <img src="assets/images/header-logo.svg" alt="logo" class="header-logo el t">
             <h1 class="el l">Growth Marketing Agency</h1>
-            <p class="el l"  style="color: white;">Стратегический маркетинг для малого бизнеса<br>Простая, быстрая методика достижения цели</p>
+            <p class="el l">Стратегический маркетинг для малого бизнеса<br>Простая, быстрая методика достижения цели</p>
             <div class="el l header-subscribe">
                 <!-- <p class="header-sub-text">Подпишись:</p> -->
                 <a href="https://www.instagram.com/growthmarketingme/"><img src="assets/images/inst-icon.png" alt="instagram"></a>
-                <a href="https://www.youtube.com/channel/UCyBKLAE9eeBHhF-DjcQpDcQ"><img src="assets/images/youtube-icon.png" alt="youtube"></a>
+                <a class="link__2" href="https://www.youtube.com/channel/UCyBKLAE9eeBHhF-DjcQpDcQ"><img src="assets/images/youtube-icon.png" alt="youtube"></a>
             </div>
         </div>
     </header>
 
     <div class="sec__one" id="marketing-for-everyone">
         <div class="container">
-            <h1 class="el t">Маркетинг для всех</h1>
+            <h2 class="el t">Маркетинг для всех</h2>
             <div class="grid__con">
                 <div class="photos__sec__one">
                     <img class="el t" src="assets/images/mp-house.png" alt="photo">
@@ -104,10 +122,9 @@
                 </div>
             </div>
 
-            <div class="ser__btn__center"><a href="#" class="btn__one btn__ser">Весь прайс</a></div>
+            <div class="ser__btn__center"><a href="price.html" class="btn__one btn__ser">Весь прайс</a></div>
         </div>
     </div>
-
 
     <div class="sec__five block__1">
         <div class="container">
@@ -115,7 +132,6 @@
             <img src="assets/images/header-logo.svg" alt="logo" class="el r">
         </div>
     </div>
-
     
     <div class="master__group" id="master-group">
         <div class="container">
@@ -183,14 +199,12 @@
         </div>
     </div>
 
-
     <div class="sec__seven block__1">
         <div class="container">
             <h2 class="el b">Growth Marketing Agency. <br>От Мечты до Результата!</h2>
             <img src="assets/images/header-logo.svg" alt="logo" class="el r">
         </div>
     </div>
-
 
     <div class="about" id="about-me">
         <div class="container">
@@ -241,7 +255,6 @@
         </div>
     </div>
 
-
     <div class="contacts" id="contacts">
         <div class="container">
             <h2 class="el l">Контакты</h2>
@@ -267,6 +280,29 @@
         </div>
     </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="assets/js/index.js"></script>
+
+
+
+
+
+
+
+
+
 </body>
 </html>

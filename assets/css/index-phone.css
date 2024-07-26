@@ -1,0 +1,238 @@
+@media screen and (max-width: 450px) {
+    body {
+        position: relative;
+    }
+
+
+    .nav__panel {
+        background-color: white;
+        position: fixed;
+        width: 100vw;
+        height: 11rem;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        z-index: 10;
+    }
+    .nav__list li button {
+        font-size: 3rem;
+    }
+    .nav__list li:not(:last-child) {
+        display: none;
+    }
+
+
+    .hamburger {
+        display: block;
+        padding-right: 3rem;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+        width: 6rem;
+    }
+
+
+    
+    .phone__panel {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        position: fixed;
+        z-index: 20;
+        transition: right 0.5s ease, opacity 0.5s ease;
+        right: -30rem;
+        top: 0;
+    }   
+    
+    .phone__nav__list li button {
+        font-size: 6rem;
+        color: rgb(30, 30, 73);   
+        font-weight: 700;
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800; /* Замените <weight> на конкретное значение */
+        font-style: normal;
+        background: none;
+        margin-bottom: 2rem;
+        padding-left: 2rem;
+        color:rgb(0, 0, 0)
+    }
+    
+    .phone__panel__bg {
+        background-color: #ffffff;
+        width: 70rem;
+        height: 100vh;
+    }
+    
+    .phone__nav__list {
+        list-style-type: none;
+        padding-top: 20rem;
+    }
+    
+    .is__active.phone__panel {
+        opacity: 1;
+        visibility: visible;
+        right: -3rem;
+        top: 0;
+    }
+
+
+    
+    .btn__close {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        z-index: 19;
+        transition: opacity 0.7s ease, visibility 0.7s ease, background-color 0.7s ease;
+        background-color: #8eff9b00;
+    }
+    
+    .is__active.btn__close {
+        opacity: 1;
+        visibility: visible;
+        background-color: #a9d4ff47;
+    }
+    
+
+
+
+    .container {
+        margin: 0 auto;
+        min-width: 92vw;
+    }
+
+
+
+    .header {
+        background-image: none;
+        
+        width: 100vw;
+        height: inherit;
+    }
+    .header-logo {
+        display: none;
+    }
+    .container h1 {
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 17rem;
+        color: rgb(0, 0, 0);
+        
+        margin-top: 20rem;
+        padding-left: 5rem;
+        line-height: -130px;
+    }
+    .container p {
+        font-size: 3rem;
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        color: rgb(0, 0, 0);
+        padding-left: 5rem;
+        margin-top: 7rem;
+    }
+    .header-subscribe {
+        padding-left: 4.5rem;
+        width: 26rem;
+        margin-top: 7rem;
+    }
+    .link__2 {
+        padding-left: 1rem;
+    }
+    .header-subscribe a img {
+        width: 9rem;
+    }
+    
+
+
+
+
+    /* СЕКЦИЯ 1*/
+    .sec__one {
+        display: flex;
+        width: 100vw;
+    }
+    .sec__one .container {
+        margin: auto auto;
+        max-width: 92vw;
+        min-width: 92vw;
+        height: 50rem;
+    }
+    .sec__one .container h2 {
+        color: black; 
+        margin-top: 5.3rem;
+        margin-bottom: 4.7rem;
+        font-weight: 900;
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 8rem;
+    }
+    .grid__con {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 6rem;
+    }
+    .photos__sec__one {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: -2rem;
+    }
+    .photos__sec__one img {
+        width: 30rem;
+        height: 30rem;
+        border-radius: 2.8rem;
+    }
+    .sec__two__last__img {
+        display: block;
+        margin-top: 1rem;
+    }
+    .sec__one__first__text {
+        margin-bottom: 1.9rem;
+    }
+    .text__sec__one p {
+        font-family: "Overpass", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+        color: rgb(16, 16, 16);
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        margin-top: 0;
+        padding: 0;
+    }
+
+
+
+
+    
+    .sec__three {
+        display: none;
+    }
+    .services {
+        display: none;
+    }
+    .sec__five {
+        display: none;
+    }
+    .master__group {
+        display: none;
+    }
+    .sec__seven {
+        display: none;
+    }
+    .about {
+        display: none;
+    }
+    .contacts {
+        display: none;
+    }
+
+
+
+
+}

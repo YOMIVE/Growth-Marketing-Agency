@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
     /* ANIMATIONS */
     .el.b.ph__sec__one__2 {
         display: inline-block;
@@ -73,6 +73,10 @@
     .nav__list li button {
         font-size: 1rem;
     }
+    .nav__list li a {
+        font-size: 1rem;
+    }
+
 
 
 
@@ -113,6 +117,7 @@
         font-family: "Dela Gothic One", sans-serif;
         font-weight: 400;
         font-style: normal;
+        color: white;
     }
     .header-subscribe {
         width: 12rem;
@@ -139,7 +144,7 @@
         min-width: 80vw;
         height: 50rem;
     }
-    .sec__one .container h1 {
+    .sec__one .container h2 {
         color: black; 
         margin-top: 5.3rem;
         margin-bottom: 4.7rem;

@@ -4,6 +4,14 @@
     transform: translateY(0);
 }
 .nav__list li button:hover {
+    transform: translateY(-2px);   
+}
+.nav__list li a {
+    display: inline-block;
+    transition: 0.5s ease;
+    transform: translateY(0);
+}
+.nav__list li a:hover {
     transform: translateY(-2px);
     
 }

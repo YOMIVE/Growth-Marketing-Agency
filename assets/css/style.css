@@ -29,7 +29,16 @@ p {
 
 
 
+
 /* GLOBAL */
+.phone__panel {
+    display: none;
+}
+.btn__close {
+    display: none;
+}
+
+
 .left__li {
     padding-left: 2rem;
 }
@@ -98,6 +107,9 @@ p {
     display: flex;
     /* padding-right: 1rem; */
 }
+.hamburger {
+    display: none;
+}
 .nav__list li {
     list-style: none;
 }
@@ -115,7 +127,21 @@ p {
 
     font-size: 15px;
 }
-.nav__list li {
+.nav__list li a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(30, 30, 73);   
+    font-weight: 700;
+
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800; /* Замените <weight> на конкретное значение */
+    font-style: normal;
+    background: none;
+
+    font-size: 15px;
+}
+.nav__list li:not(:last-child) {
     margin-right: 2.1rem
 }
 
@@ -134,7 +160,6 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; /* Горизонтальное отражение */
-
 }
 .container {
     margin: 2.5rem auto 0 auto;
@@ -164,6 +189,7 @@ p {
     font-style: normal;
 
     margin-top: 30px;
+    color: white;
     font-size: 32px;
 }
 .header-subscribe {
@@ -198,7 +224,7 @@ p {
     min-width: 1100px;
     height: 800px;
 }
-.sec__one .container h1 {
+.sec__one .container h2 {
     color: black; 
     margin-top: 5.3rem;
     margin-bottom: 4.7rem;
@@ -207,12 +233,10 @@ p {
     font-weight: 400;
     font-style: normal;
 
-    font-size: 78px;
+    font-size: 65px;
     margin-top: 85px;
     margin-bottom: 65px;
 }
-
-
 
 .grid__con {
     display: grid;
@@ -237,6 +261,9 @@ p {
 
 .sec__one__first__text {
     margin-bottom: 30px;
+}
+.text__sec__one {
+    font-family: "Overpass", sans-serif;
 }
 .text__sec__one p {
     font-family: "Overpass", sans-serif;

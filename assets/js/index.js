@@ -72,6 +72,22 @@ function scrollToMarketingForEveryone() {
 }
 
 
+function openNavPanel() {
+    var element = document.getElementById("phone-panel");
+    var el = document.getElementById('btn-close');
+    element.classList.add('is__active');
+    el.classList.add('is__active');
+    console.log('start');
+}
+function closeNavPanel() {
+    var element = document.getElementById("phone-panel");
+    var el = document.getElementById('btn-close');
+    element.classList.remove('is__active');
+    el.classList.remove('is__active');
+    console.log('remove');
+}
+
+
 
 
 

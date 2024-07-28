@@ -24,6 +24,14 @@
         font-weight: 700;
         font-style: normal;
     }
+    .btn__one:hover {
+        transform: translateY(-0.3rem);
+        filter: drop-shadow(0 0.5rem 0.7rem #85807e7c);
+        color: #7C716C;
+        background-color: white;
+        border: solid 0.3rem #7C716C;
+    
+    }
 
 
     .block__1 {

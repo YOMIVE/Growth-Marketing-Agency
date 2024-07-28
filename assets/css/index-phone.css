@@ -1,4 +1,29 @@
 @media screen and (max-width: 450px) {
+    /* GLOBAL START */
+    .btn__one {
+        display: inline-block;
+        margin-top: 5rem;
+        padding: 2.5rem 10.4rem;
+        background-color: #7C716C;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 10rem;
+
+        font-size: 3rem;
+        font-family: "Overpass", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .btn__one:hover {
+        transform: translateY(-0.5rem);
+        filter: drop-shadow(0 1rem 1.5rem #85807e7c);
+        color: #7C716C;
+        background-color: white;
+        border: solid 0.7rem #7C716C;
+
+    }
+    
     body {
         position: relative;
         height: 100vh;
@@ -110,7 +135,7 @@
         background-image: none;
         
         width: 100vw;
-        height: inherit;
+        height: 150rem;
     }
     .header-logo {
         display: none;
@@ -156,9 +181,10 @@
     .sec__one {
         display: flex;
         width: 100vw;
+        height: 190rem;
     }
     .sec__one .container {
-        margin: auto auto;
+        margin: 0 auto;
         max-width: 92vw;
         min-width: 92vw;
         height: 50rem;
@@ -166,7 +192,7 @@
     .sec__one .container h2 {
         color: black; 
         margin-top: 5.3rem;
-        margin-bottom: 4.7rem;
+        margin-bottom: 10rem;
         font-weight: 900;
         font-family: "Dela Gothic One", sans-serif;
         font-weight: 400;
@@ -174,45 +200,71 @@
         font-size: 8rem;
     }
     .grid__con {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-column-gap: 6rem;
+        display: block;
+        /* grid-template-columns: 1fr;
+        grid-column-gap: 6rem; */
     }
     .photos__sec__one {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: -2rem;
+        display: flex;
+
+        /* grid-template-columns: 1fr;
+        grid-column-gap: -2rem; */
     }
     .photos__sec__one img {
-        width: 30rem;
-        height: 30rem;
-        border-radius: 2.8rem;
+        width: 50rem;
+        height: 50rem;
+        border-radius: 8rem;
     }
     .sec__two__last__img {
         display: block;
-        margin-top: 1rem;
+    }
+    .el.b.ph__sec__one__2 {
+        margin-top: 20rem;
+        margin-left: 5rem;
     }
     .sec__one__first__text {
         margin-bottom: 1.9rem;
     }
+    .text__sec__one {
+        margin-top: 10rem;
+    }
     .text__sec__one p {
-        font-family: "Overpass", sans-serif;
+        font-family: "Exo 2", sans-serif;
         font-optical-sizing: auto;
-        font-weight: 100;
+        font-weight: 400;
         font-style: normal;
         color: rgb(16, 16, 16);
-        font-size: 1.4rem;
+        font-size: 4rem;
         letter-spacing: 2px;
         margin-top: 0;
         padding: 0;
     }
+    .text__sec__one p b {
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: rgb(16, 16, 16);
+        font-size: 4rem;
+        letter-spacing: 2px;
+        margin-top: 0;
+        padding: 0;
+    }
+    .text__sec__one:first-child {
+        margin-bottom: 5rem;
+    }
+    .text__sec__one .btn__one {
+        margin-top: 7rem;
+    }
+
+
 
 
 
 
     
     .sec__three {
-        display: none;
+
     }
     .services {
         display: none;

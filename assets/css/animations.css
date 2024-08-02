@@ -86,3 +86,37 @@
     margin-top: 177px;
 }
 
+
+@media screen and (max-width: 450px) {      
+    .el.t {
+        transform: translateY(-10rem);
+    }
+    .el.t-m {
+        transform: translateY(-5rem);
+    }
+    
+    .el.b {
+        transform: translateY(10rem);
+    }
+    .el.b-m {
+        transform: translateY(5rem);
+    }
+    
+    .el.l {
+        transform: translateX(-10rem);
+    }
+      
+    .el.r {
+        transform: translateX(10rem);
+    }
+
+    .el.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .el.b.ph__sec__one__2 {
+        display: inline-block;
+        margin-top: 177px;
+    }
+}
+

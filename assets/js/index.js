@@ -31,34 +31,88 @@
 //     checkVisibility();
 // });
 
+// document.addEventListener('DOMContentLoaded', function() {
+//     const elements = document.querySelectorAll('.el');
+//     let visibilityThreshold = window.innerWidth <= 450 ? 0.1 : 0.5; // 10% видимости элемента для ширины <= 450px, иначе 50%
+
+//     const checkVisibility = () => {
+//         elements.forEach(el => {
+//             const rect = el.getBoundingClientRect();
+//             const elementHeight = rect.bottom - rect.top;
+//             const elementVisible = Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0);
+//             const visiblePercentage = elementVisible / elementHeight;
+    
+//             console.log(`Element: ${el.className}, Visible Percentage: ${visiblePercentage}, Threshold: ${visibilityThreshold}`);
+    
+//             if (visiblePercentage > visibilityThreshold && rect.top < window.innerHeight && rect.bottom > 0) {
+//                 el.classList.add('visible');
+//                 console.log(`Element ${el.className} is now visible.`);
+//             } else {
+//                 el.classList.remove('visible');
+//                 console.log(`Element ${el.className} is not visible enough.`);
+//             }
+//         });
+//     };
+    
+
+//     const updateVisibilityThreshold = () => {
+//         visibilityThreshold = window.innerWidth <= 450 ? 0.1 : 0.5;
+//         checkVisibility();
+//     };
+
+//     window.addEventListener('scroll', checkVisibility);
+//     window.addEventListener('resize', updateVisibilityThreshold);
+
+//     // Initial check
+//     checkVisibility();
+// });
+
 document.addEventListener('DOMContentLoaded', function() {
     const elements = document.querySelectorAll('.el');
-    let visibilityThreshold = window.innerWidth <= 450 ? -1.2 : 0.5; // 10% видимости элемента для ширины <= 450px, иначе 50%
+    let visibilityThreshold = window.innerWidth <= 450 ? 0.1 : 0.5; // 10% видимости элемента для ширины <= 450px, иначе 50%
 
-    const checkVisibility = () => {
-        elements.forEach(el => {
-            const rect = el.getBoundingClientRect();
-            const elementHeight = rect.bottom - rect.top;
-            const elementVisible = Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0);
-            const visiblePercentage = elementVisible / elementHeight;
-    
+    const updateVisibilityThreshold = () => {
+        visibilityThreshold = window.innerWidth <= 450 ? 0.1 : 0.5;
+    };
+
+    const observerOptions = {
+        threshold: Array.from({length: 101}, (_, i) => i * 0.01) // массив порогов от 0 до 1 с шагом 0.01
+    };
+
+    const observerCallback = (entries) => {
+        entries.forEach(entry => {
+            const visiblePercentage = entry.intersectionRatio;
+
+            console.log(`Element: ${entry.target.className}, Visible Percentage: ${visiblePercentage}, Threshold: ${visibilityThreshold}`);
+
             if (visiblePercentage > visibilityThreshold) {
-                el.classList.add('visible');
+                entry.target.classList.add('visible');
+                console.log(`Element ${entry.target.className} is now visible.`);
+            } else {
+                entry.target.classList.remove('visible');
+                console.log(`Element ${entry.target.className} is not visible enough.`);
             }
         });
     };
 
-    const updateVisibilityThreshold = () => {
-        visibilityThreshold = window.innerWidth <= 450 ? -1.2 : 0.5;
-        checkVisibility();
-    };
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
 
-    window.addEventListener('scroll', checkVisibility);
-    window.addEventListener('resize', updateVisibilityThreshold);
+    elements.forEach(el => {
+        observer.observe(el);
+    });
 
-    // Initial check
-    checkVisibility();
+    window.addEventListener('resize', () => {
+        updateVisibilityThreshold();
+        elements.forEach(el => {
+            observer.unobserve(el);
+            observer.observe(el);
+        });
+    });
+
+    // Initial threshold update
+    updateVisibilityThreshold();
 });
+
 
 
 

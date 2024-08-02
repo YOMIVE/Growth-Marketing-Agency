@@ -31,6 +31,9 @@ p {
 
 
 /* GLOBAL */
+.for__phone__p {
+    display: none;
+}
 .phone__panel {
     display: none;
 }

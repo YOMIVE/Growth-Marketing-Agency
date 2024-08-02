@@ -421,12 +421,125 @@
 
 
 
+    /* ABOUT ME */
+
     .about {
-        
+        display: flex;
+    }
+    .about .container {
+        width: 80vw;
+        min-width: inherit;
+        margin-top: 0;
+    }
+    .about .container h2 {
+        font-size: 8rem;
+        margin-top: 4.2rem;
+        margin-bottom: 4.2rem;
+    }
+    .about__first__g {
+        display: block;
+    }
+    .left {
+        width: 100%;
+    }
+    .about__children h3 {
+        margin-bottom: 0;
+        font-size: 4rem;
+        letter-spacing: 1.1px;
+    }
+    .about__children p {
+        color: black;
+        font-size: 1.8rem;
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400; /* Замените <weight> на конкретное значение */
+        font-style: normal;
+        letter-spacing: 1.1px;
+    }
+    .about__children ul {
+        margin-top: 0;
+        margin-left: 7rem;
+    }
+    .about__children ul li {
+        color: black;
+        font-size: 4rem;
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400; /* Замените <weight> на конкретное значение */
+        font-style: normal;
+        letter-spacing: 1.1px;
+    }
+    .about__dio p {
+        color: black;
+        font-size: 4rem;
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400; /* Замените <weight> на конкретное значение */
+        font-style: normal;
+        letter-spacing: 1.1px;
+        padding: 0;
+    }
+    .about__dio img {
+        margin-top: -2.1rem;
+        margin-left: 2.2rem;
+        width: 22rem;
+        height: 22rem;
+        border-radius: 2.3rem;
+    }
+    .about__second__g {
+        display: grid;
+        grid-template-columns: auto auto;
+        max-height: 22rem;
+        margin-top: 3.5rem;
+        margin-bottom: 3.5rem;
+    }
+    .about__second__g img {
+        margin-top: 0;
+        margin-left: 0;
+        width: 22rem;
+        height: 22rem;
+        border-radius: 2.8rem;
+    }
+    .right {
+        display: flex;
+        align-items: center;
+        margin-left: 2rem;
+    }
+    .right.about__children .for__center h3 {
+        font-size: 4rem;
+    }
+    .right.about__children .for__center p {
+        font-size: 4rem;
+        margin-top: 1.3rem;
+    }
+    .about__d__1 h3 {
+        font-size: 4rem;
+    }
+    .about__second__g {
+        margin-bottom: 120rem;
+        display: block;
+    }
+    .about__center__img {
+        display: flex;
+    }
+    .about__second__g img {
+        border-radius: 10rem;
+        width: 70rem;
+        height: 70rem;
+        margin: 5rem  auto 5rem auto;
+    }
+    .right.about__children {
+        margin: 0;
+    }
+    .about__d__1 {
+        margin-top: 6rem;
+    }
+    .about__first__g img {
+        display: none;
     }
 
 
-    
+
     .contacts {
         display: none;
     }

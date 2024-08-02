@@ -88,10 +88,10 @@ document.addEventListener('DOMContentLoaded', function() {
             if (visiblePercentage > visibilityThreshold) {
                 entry.target.classList.add('visible');
                 console.log(`Element ${entry.target.className} is now visible.`);
-            } else {
-                entry.target.classList.remove('visible');
-                console.log(`Element ${entry.target.className} is not visible enough.`);
-            }
+            }// else {
+            //     entry.target.classList.remove('visible');
+            //     console.log(`Element ${entry.target.className} is not visible enough.`);
+            // }
         });
     };
 

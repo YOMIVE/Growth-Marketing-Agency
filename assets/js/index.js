@@ -33,7 +33,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     const elements = document.querySelectorAll('.el');
-    let visibilityThreshold = window.innerWidth <= 450 ? 0 : 0.5; // 10% видимости элемента для ширины <= 450px, иначе 50%
+    let visibilityThreshold = window.innerWidth <= 450 ? -0.3 : 0.5; // 10% видимости элемента для ширины <= 450px, иначе 50%
 
     const checkVisibility = () => {
         elements.forEach(el => {
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     const updateVisibilityThreshold = () => {
-        visibilityThreshold = window.innerWidth <= 450 ? 0 : 0.5;
+        visibilityThreshold = window.innerWidth <= 450 ? -0.3 : 0.5;
         checkVisibility();
     };
 

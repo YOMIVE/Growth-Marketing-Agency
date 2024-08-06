@@ -188,8 +188,8 @@
     }
     .sec__one .container {
         margin: 0 auto;
-        max-width: 92vw;
-        min-width: 92vw;
+        max-width: 85vw;
+        min-width: 85vw;
         height: 50rem;
     }
     .sec__one .container h2 {
@@ -201,6 +201,7 @@
         font-weight: 400;
         font-style: normal;
         font-size: 8rem;
+        padding-top: 6rem;
     }
     .grid__con {
         display: block;
@@ -283,12 +284,13 @@
     }
     .services .container {
         margin: auto auto;
-        max-width: 80vw;
-        min-width: 80vw;
+        max-width: 85vw;
+        min-width: 85vw;
         height: 230rem;
     }
     .services .container h2 {
         font-size: 8rem;
+        padding-top: 6rem;
         margin-top: 7rem;
         margin-bottom: 8rem;
         font-weight: 700;
@@ -351,13 +353,14 @@
         display: flex;
     }
     .master__group .container {
-        width: 80vw;
+        width: 85vw;
         min-width: inherit;
         margin-top: 0;
     }
     .master__group .container h2 {
         font-size: 8rem;
-        margin-top: 4.1rem;
+        margin-top: 4rem;
+        padding-top: 6rem;
         margin-bottom: 4.1rem;
         font-weight: 700;
     }
@@ -427,13 +430,14 @@
         display: flex;
     }
     .about .container {
-        width: 80vw;
+        width: 85vw;
         min-width: inherit;
         margin-top: 0;
     }
     .about .container h2 {
         font-size: 8rem;
         margin-top: 4.2rem;
+        padding-top: 6rem;
         margin-bottom: 4.2rem;
     }
     .about__first__g {
@@ -540,11 +544,73 @@
 
 
 
+
+    /* КОНТАКТЫ НАЧАЛО */
     .contacts {
+        margin-top: 18rem;
+        display: flex;
+    }
+    .contacts .container {
+        width: 85vw;
+        min-width: inherit;
+        margin-top: 0;
+    }
+    .contacts .container h2 {
+        font-size: 8rem;
+        padding-top: 6rem;
+        margin-bottom: 9.5rem;
+    }
+    .contacts__g {
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 0.6rem;
+    }
+    .con__left {
+        width: 100%;
+    }
+    .con__left h3 {
+        font-size: 5rem;
+    }
+    .con__left p {
+        font-size: 4rem;
+        margin-top: 0;
+        padding: 0;
+        margin-bottom: 5rem;
+        color: #868686;
+        font-family: "Exo 2", sans-serif;
+        font-weight: 500;
+    }
+    .con__right {
         display: none;
     }
+    .con__right img {
+        width: 22rem;
+        height: 22rem;
+        border-radius: 2.8rem;
+        display: block;
+    }
+    .con__ph__first {
+        margin-top: 2.7rem;
+    }
+    .con__ph__second {
+        margin-top: -5rem;
+        margin-left: 5rem;
+    }
+    .contacts .container .header-subscribe {
+        margin-top: 3rem;
+        margin-left: 0;
+        margin-bottom: 18rem;
+        padding: 0;
+        width: 60rem
+    }
 
+    .contacts .container .header-subscribe .link__2 {
+        padding-left: 1rem;
+    }
 
+    .contacts .container .header-subscribe a img {
+        width: 11rem;
+    }
 
 
 }

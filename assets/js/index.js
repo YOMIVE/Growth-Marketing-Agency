@@ -1,72 +1,3 @@
-// gsap.from('.header-logo', {duration: 1, y: -100})
-// gsap.from('#Hh1', {duration: 1, x: -100})
-// gsap.from('#Hp', {duration: 1, x: -100})
-// gsap.from('#Hlinks', {duration: 1, x: -100})
-
-// gsap.from('#SOh1', {duration: 1, x: -100})
-// gsap.from('.text__sec__one', {duration: 1, x: -100})
-
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     const elements = document.querySelectorAll('.el');
-//     const visibilityThreshold = 0.5; // 10% видимости элемента
-
-//     const checkVisibility = () => {
-//         elements.forEach(el => {
-//             const rect = el.getBoundingClientRect();
-//             const elementHeight = rect.bottom - rect.top;
-//             const elementVisible = Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0);
-//             const visiblePercentage = elementVisible / elementHeight;
-    
-//             if (visiblePercentage > visibilityThreshold) {
-//                 el.classList.add('visible');
-//             }
-//         });
-//     };
-
-//     window.addEventListener('scroll', checkVisibility);
-//     window.addEventListener('resize', checkVisibility);
-
-//     // Initial check
-//     checkVisibility();
-// });
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     const elements = document.querySelectorAll('.el');
-//     let visibilityThreshold = window.innerWidth <= 450 ? 0.1 : 0.5; // 10% видимости элемента для ширины <= 450px, иначе 50%
-
-//     const checkVisibility = () => {
-//         elements.forEach(el => {
-//             const rect = el.getBoundingClientRect();
-//             const elementHeight = rect.bottom - rect.top;
-//             const elementVisible = Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0);
-//             const visiblePercentage = elementVisible / elementHeight;
-    
-//             console.log(`Element: ${el.className}, Visible Percentage: ${visiblePercentage}, Threshold: ${visibilityThreshold}`);
-    
-//             if (visiblePercentage > visibilityThreshold && rect.top < window.innerHeight && rect.bottom > 0) {
-//                 el.classList.add('visible');
-//                 console.log(`Element ${el.className} is now visible.`);
-//             } else {
-//                 el.classList.remove('visible');
-//                 console.log(`Element ${el.className} is not visible enough.`);
-//             }
-//         });
-//     };
-    
-
-//     const updateVisibilityThreshold = () => {
-//         visibilityThreshold = window.innerWidth <= 450 ? 0.1 : 0.5;
-//         checkVisibility();
-//     };
-
-//     window.addEventListener('scroll', checkVisibility);
-//     window.addEventListener('resize', updateVisibilityThreshold);
-
-//     // Initial check
-//     checkVisibility();
-// });
-
 document.addEventListener('DOMContentLoaded', function() {
     const elements = document.querySelectorAll('.el');
     let visibilityThreshold = window.innerWidth <= 450 ? 0.1 : 0.5; // 10% видимости элемента для ширины <= 450px, иначе 50%
@@ -83,11 +14,11 @@ document.addEventListener('DOMContentLoaded', function() {
         entries.forEach(entry => {
             const visiblePercentage = entry.intersectionRatio;
 
-            console.log(`Element: ${entry.target.className}, Visible Percentage: ${visiblePercentage}, Threshold: ${visibilityThreshold}`);
+            // console.log(`Element: ${entry.target.className}, Visible Percentage: ${visiblePercentage}, Threshold: ${visibilityThreshold}`);
 
             if (visiblePercentage > visibilityThreshold) {
                 entry.target.classList.add('visible');
-                console.log(`Element ${entry.target.className} is now visible.`);
+                // console.log(`Element ${entry.target.className} is now visible.`);
             }// else {
             //     entry.target.classList.remove('visible');
             //     console.log(`Element ${entry.target.className} is not visible enough.`);
@@ -170,6 +101,10 @@ function closeNavPanel() {
     el.classList.remove('is__active');
     console.log('remove');
 }
+
+
+
+
 
 
 

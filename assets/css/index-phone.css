@@ -39,7 +39,7 @@
         width: 100vw;
         height: 11rem;
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         align-items: center;
         z-index: 10;
     }

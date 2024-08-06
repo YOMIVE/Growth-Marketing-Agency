@@ -557,6 +557,7 @@ p {
 }
 .contacts .container h2 {
     font-size: 70px;
+    padding-top: 2rem;
     margin-bottom: 150px;
 }
 .contacts__g {

@@ -87,9 +87,61 @@ h3 {
 
 
 /* Black Ser Start */
+.black__ser {
+    background-color: black;
+    width: 100vw;
+    height: 500px;
 
+    margin-bottom: 100px;
 
-
+    display: flex;
+}
+.container_new {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto auto;
+    width: 1410px;
+    height: 100%;
+}
+.ser__card {
+    width: 470px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Черный цвет с 50% прозрачностью */
+    background-blend-mode: darken; /* Режим наложения "затемнение" */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sc1 {
+    background-image: url('../images/mobile-recording.jpg');
+}
+.sc2 {
+    background-image: url('../images/microphone.jpg');
+}
+.sc3 {
+    background-image: url('../images/mic.jpg');
+}
+.ser__card * {
+    color: white;
+    margin-left: 36px;
+    margin-top: 36px;
+    max-width: 80%;
+}
+.ser__card b {
+    margin: 0;
+}
+.ser__card p {
+    font-size: 22px;
+    letter-spacing: 1.5px;
+}
+.ser__card h3 {
+    font-size: 22px;
+}
+.ser__card h4 {
+    font-size: 27px;
+    font-family: "Overpass", sans-serif;
+    font-weight: 900;
+}
 
 
 

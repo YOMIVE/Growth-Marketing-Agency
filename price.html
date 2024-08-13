@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прайс. Growth Marketing Agency</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/index-adaptive.css">
+    <link rel="stylesheet" href="assets/css/index-phone.css">
+    <link rel="stylesheet" href="assets/css/price-style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+
+
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+</head>
+<body>
+    <div class="nav__panel" id="nav-panel">
+        <div class="content__right">
+            <ul class="nav__list">
+                <li><button onclick="window.location.href='index.html'">Главная</button></li>
+                <li><button onclick="scrollToMarketingForEveryone()">Агенство</button></li>
+                <li><button onclick="scrollToServices()">Услуги</button></li>
+                <li><button onclick="scrollToMasterGroup()">Мастер Группа</button></li>
+                <li><button onclick="scrollToAbout()">Обо мне</button></li>
+                <li><button onclick="scrollToContacts()">Контакты</button></li>
+
+                <li class="hamburger__li"><button onclick="openNavPanel()"><img class="hamburger" src="assets/images/mobile/hamburger-gray.svg" alt=""></button></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="phone__panel" id="phone-panel">
+        <div class="phone__panel__bg">
+            <div class="panel_con">
+                <ul class="phone__nav__list">
+                    <li><button onclick="window.location.href='index.html'">Главная</button></li>
+                    <li><button onclick="scrollToMarketingForEveryone()">Агенство</button></li>
+                    <li><button onclick="scrollToServices()">Услуги</button></li>
+                    <li><button onclick="scrollToMasterGroup()">Мастер Группа</button></li>
+                    <li><button onclick="scrollToAbout()">Обо мне</button></li>
+                    <li><button onclick="scrollToContacts()">Контакты</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <button class="btn__close" id="btn-close" onclick="closeNavPanel()"></button>
+
+    <header class="header" id="main-page">
+        <div class="container">
+            <img src="assets/images/header-logo.svg" alt="logo" class="header-logo el t">
+            <h1 class="el l">Growth Marketing Agency</h1>
+            <p class="el l" style="color: white">Стратегический маркетинг для малого бизнеса<br>Простая, быстрая методика достижения цели</p>
+            <div class="el l header-subscribe">
+                <!-- <p class="header-sub-text">Подпишись:</p> -->
+                <a href="https://www.instagram.com/growthmarketingme/"><img src="assets/images/inst-icon.png" alt="instagram"></a>
+                <a class="link__2" href="https://www.youtube.com/channel/UCyBKLAE9eeBHhF-DjcQpDcQ"><img src="assets/images/youtube-icon.png" alt="youtube"></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="sec__one" id="marketing-for-everyone">
+        <div class="container">
+            <h2 class="el t">Мечта - рождает видение</h2>
+            <div class="grid__con">
+                <div class="photos__sec__one">
+                    <img class="el t" src="assets/images/mp-house.png" alt="photo">
+                    <img class="el b ph__sec__one__2 sec__two__last__img" src="assets/images/mp-sky.png" alt="photo">
+                </div>
+                <div class="text__sec__one">
+                    <p class="el t sec__one__first__text">Главная ошибка экспертов, начинающих свой путь в онлайн - это полное отсутствие стратегии, игнорирование любого планирования. Нет стратегии - нет вИдения.</p>
+                    <p class="el r">В начале кажется, что сложные конструкции не нужны, что лодка может плыть в море и без маршрута. Но море не прощает вызывающую самонадеянность :)</p>
+                    <p class="el r"><b>Агентство Growth Marketing Agency предлагает создание маркетинговой стратегии для малого бизнеса, которая начинается с формулировки Миссии компании, бренда, и осознания главной Мечты основателя.</b></p>
+                    <p class="el r"><b>Официальное оформление по договору.</b></p>
+                </div>
+            </div>
+            <h2 class="el l">Стратегия бренда, проекта</h2>
+            <h3 class="el l">МИССИЯ. ПЛАН. ДЕЙСТВИЯ</h3>
+            <h4 class="el l p_mbnone">Стратегия продвижения бренда, проекта, бизнеса:</h4>
+            <div class="con__con el l">
+                <p>Включает в себя:</p>
+                <ul class="ul-price">
+                    <li>Анкетирование, интервьюрирование владельца бизнеса, клиентов</li>
+                    <li>Анализ и сегментирование целевой аудитории</li>
+                    <li>Создание Аватара (горячий и теплый сегмент)</li>
+                    <li>Анализ рынка, ниши, конкурентов</li>
+                    <li>Выстраивание стратегии развития бренда на 1 год</li>
+                    <li>Создание маркетинг-кит для бренда</li>
+                    <li>Создание контент-матрицы</li>
+                    <li>Контент воронки под задачи проекта</li>
+                </ul>
+                <h4 id="mb-45"><b>Стоимость - 650€ (3-4 недели)</b></h4>
+                <h4><b>Контент-матрица (основа для формирования контент-плана на любой период):</b></h4>
+            </div>
+            <div class="con__con el l">
+                <p>Включает в себя:</p>
+                <ul class="ul-price" id="mb-45">
+                    <li>На основе стратегии - создание Рубрикатора контента</li>
+                    <li>Для каждой рубрики - идеи и темы публикаций (сториз, посты, эфиры)</li>
+                    <li>Идеи сценариев рилс под каждую тему</li>
+                    <li>Примеры от лидеров рынка</li>
+                    <li>Список хештегов под каждую рубрику</li>
+                    <li>Список гео точек под конкретную компанию, проект</li>
+                </ul>
+                <h4 id="mb-45"><b>Стоимость - 300€ (2 недели)</b></h4>
+                <h4><b>Контент-план на основе контент матрицы для проекта, на 30 дней:</b></h4>
+                <p>15 постов в месяц + 5 сториз в день - 200€</p>
+                <p>30 постов в месяц + 5 сториз в день - 350€</p>
+                <p id="mb-45">60 постов в месяц + 10 сториз в день - 450€</p>
+                <h4><b>Оформление профиля, ленты в стиле бренда по контент-плану, шаблоны для всех типов ​контента для одного аккаунта в одной соцсети (Canva, аккаунт клиента):</b></h4>
+                <p id="mb-45">Дизайн ленты на 15 дней - <b>150€ (1 неделя)</b></p>
+                <h4 id="mb-90"><b>* Цены указаны без учет​а​ НДС 21%</b></h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="sec__three block__1">
+        <div class="container">
+            <h2 class="el b">Стратегия - основа успеха <br> малого бизнеса!</h2>
+            <img src="assets/images/header-logo.svg" alt="logo">
+        </div>
+    </div>
+
+    <div class="sec__one two" id="marketing-for-everyone">
+        <div class="container">
+            <h2 class="el t">Контент для бизнеса</h2>
+            <div class="grid__con two">
+                <div class="text__sec__one" style="margin-bottom: 30px;">
+                    <p class="el t sec__one__first__text">Контент - неотъемлемая часть продвижения.</p>
+                    <p class="el t">Контент-план нужен каждому бизнесу и об этом вещают все эксперты.<br>Но почему-то мало у кого есть время и силы начать с самого первого шага - разработать стратегию развития компании / проекта / бренда, стратегию продвижения с учетом главных параметров: миссии, видения владельца, целей бизнеса, сегментов аудитории, отстройки от конкурентов и т.п.</p>
+                    <p class="el t"><b>Агентство Growth Marketing Agency предлагает создание контента на основе маркетинговой стратегии от Мечты до результата.</b></p>
+                </div>
+                <div class="photos__sec__one">
+                    <img class="el b ph__sec__one__2 sec__two__last__img" src="assets/images/mp-house.png" alt="photo">
+                    <img class="el r" src="assets/images/mp-sky.png" alt="photo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="black__ser" id="black__ser">
+        <div class="container">
+            
+        </div>
+    </div>
+
+
+
+
+    <div class="sec__seven block__1">
+        <div class="container">
+            <h2 class="el b">Growth Marketing Agency. <br>От Мечты до Результата!</h2>
+            <img src="assets/images/header-logo.svg" alt="logo" class="el r">
+        </div>
+    </div>
+
+    <div class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="el l">Контакты</h2>
+            <div class="contacts__g">
+                <div class="con__left el l">
+                    <h3>Будва, Черногория</h3>
+                    <p>Growth Marketing Agency DOO</p>
+                    <h3>Email Address</h3>
+                    <p>growthmarketingme@gmail.com</p>
+                    <h3>Phone Number</h3>
+                    <p>+ (382) 67 87 91 41 (WApp, Viber, Telegram)</p>
+                </div>
+                <div class="con__right">
+                    <img src="assets/images/mp-sky.png" alt="photo" class="con__ph__first el b">
+                    <img src="assets/images/mp-house.png" alt="photo" class="con__ph__second el t">
+                </div>
+            </div>
+            <div class="header-subscribe el l">
+                <!-- <p class="header-sub-text">Подпишись:</p> -->
+                <a href="https://www.instagram.com/growthmarketingme/"><img src="assets/images/inst-icon.png" alt="instagram"></a>
+                <a class="link__2" href="https://www.youtube.com/channel/UCyBKLAE9eeBHhF-DjcQpDcQ"><img src="assets/images/youtube-icon.png" alt="youtube"></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/index.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

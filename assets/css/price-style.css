@@ -1,0 +1,99 @@
+/* global start */
+.container h3 {
+    font-size: 27px;
+    margin-bottom: 35px;
+}
+.container p {
+    color: black;
+}
+.p_mbnone {
+    margin-bottom: 0;
+}
+
+b {
+    font-family: "Overpass", sans-serif;
+    font-weight: 900;
+}
+h4 {
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+h3 {
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+#mb-90 {
+    margin-bottom: 90px;
+}
+#mb-45 {
+    margin-bottom: 35px;
+}
+/* global end */
+
+
+
+/* sec__one start */
+.sec__one .container {
+    height: inherit;
+
+}
+.grid__con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 80px;
+}
+.text__sec__one p {
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+.text__sec__one p b {
+    font-size: 19px;
+    font-family: "Overpass", sans-serif;
+    font-weight: 900;
+
+}
+.sec__one__first__text {
+    margin: 0;
+}
+.ul-price li {
+    margin-left: 30px;
+    font-family: "Overpass", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-style: normal;
+}
+
+.con__con p {
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.con__con p b {
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+/* sec__one end */
+
+
+
+/* Black Ser Start */
+
+
+
+
+
+
+
+
+/* Black Ser End */
+

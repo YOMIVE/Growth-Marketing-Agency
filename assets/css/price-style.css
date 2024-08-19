@@ -33,6 +33,13 @@ h3 {
 #mb-45 {
     margin-bottom: 35px;
 }
+#newP {
+    margin-top: 40px;
+}
+#NDS {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
 /* global end */
 
 
@@ -92,8 +99,6 @@ h3 {
     width: 100vw;
     height: 500px;
 
-    margin-bottom: 100px;
-
     display: flex;
 }
 .container_new {
@@ -143,9 +148,92 @@ h3 {
     font-weight: 900;
 }
 
-
-
-
-
 /* Black Ser End */
 
+/* SMM start */
+.sec__smm .container {
+    margin: auto auto;
+    max-width: 1100px;
+    min-width: 1100px;
+}
+.sec__smm .container h2 {
+    font-size: 77px;
+    margin-top: 65px;
+    font-weight: 900;
+    font-family: "Overpass", sans-serif;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.sec__smm .container p {
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.sec__smm .container p b {margin: 0;
+    font-family: "Overpass", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+/* SMM end */
+
+
+/* Consultations start */
+.sec__consultations .container {
+    margin: auto auto;
+    max-width: 1100px;
+    min-width: 1100px;
+}
+.sec__consultations .container h2 {
+    font-size: 77px;
+    margin-top: 65px;
+    font-weight: 900;
+    font-family: "Overpass", sans-serif;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.sec__consultations .container p {
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.sec__consultations .container p b {
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+/* Consultations end */
+
+
+
+/* sec__mentoring start*/
+.sec__mentoring .container {
+    margin: auto auto;
+    max-width: 1100px;
+    min-width: 1100px;
+}
+.sec__mentoring .container h2 {
+    font-size: 77px;
+    margin-top: 65px;
+    font-weight: 900;
+    font-family: "Overpass", sans-serif;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.sec__mentoring .container p {
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.sec__mentoring .container p b {
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+
+/* sec__mentoring end */

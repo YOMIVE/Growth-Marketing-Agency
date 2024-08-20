@@ -86,6 +86,50 @@ function scrollToMarketingForEveryone() {
     }
 }
 
+// price
+function scrollToStrategy() {
+    var element = document.getElementById("strategy");
+    if (element) {
+        element.scrollIntoView();
+    }
+}
+function scrollToblack__ser__1() {
+    var element = document.getElementById("black__ser__1");
+    if (element) {
+        element.scrollIntoView();
+    }
+}
+function scrollToSec__smm() {
+    var element = document.getElementById("sec__smm");
+    if (element) {
+        element.scrollIntoView();
+    }
+}
+function scrollToPromotion() {
+    var element = document.getElementById("promotion");
+    if (element) {
+        element.scrollIntoView();
+    }
+}
+function scrollToConsultations() {
+    var element = document.getElementById("consultations");
+    if (element) {
+        element.scrollIntoView();
+    }
+}
+function scrollToSec__mentoring() {
+    var element = document.getElementById("sec__mentoring");
+    if (element) {
+        element.scrollIntoView();
+    }
+}
+function scrollToSec__mentoring__2() {
+    var element = document.getElementById("sec__mentoring__2");
+    if (element) {
+        element.scrollIntoView();
+    }
+}
+
 
 function openNavPanel() {
     var element = document.getElementById("phone-panel");

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/index-adaptive.css">
     <link rel="stylesheet" href="assets/css/index-phone.css">
     <link rel="stylesheet" href="assets/css/price-style.css">
+    <link rel="stylesheet" href="assets/css/price-adaptive.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,10 +33,13 @@
         <div class="content__right">
             <ul class="nav__list">
                 <li><button onclick="window.location.href='index.html'">Главная</button></li>
-                <li><button onclick="scrollToMarketingForEveryone()">Агенство</button></li>
-                <li><button onclick="scrollToServices()">Услуги</button></li>
-                <li><button onclick="scrollToMasterGroup()">Мастер Группа</button></li>
-                <li><button onclick="scrollToAbout()">Обо мне</button></li>
+                <li><button onclick="scrollToStrategy()">Стратегия</button></li>
+                <li><button onclick="scrollToblack__ser__1()">Контент</button></li>
+                <li><button onclick="scrollToSec__smm()">Соцсети</button></li>
+                <li><button onclick="scrollToPromotion()">Продвижение</button></li>
+                <li><button onclick="scrollToConsultations()">Консультации</button></li>
+                <li><button onclick="scrollToSec__mentoring()">Обучение</button></li>
+                <li><button onclick="scrollToSec__mentoring__2()">Нейросети</button></li>
                 <li><button onclick="scrollToContacts()">Контакты</button></li>
 
                 <li class="hamburger__li"><button onclick="openNavPanel()"><img class="hamburger" src="assets/images/mobile/hamburger-gray.svg" alt=""></button></li>
@@ -87,7 +91,7 @@
                     <p class="el r"><b>Официальное оформление по договору.</b></p>
                 </div>
             </div>
-            <h2 class="el l">Стратегия бренда, проекта</h2>
+            <h2 class="el l" id="strategy">Стратегия бренда, проекта</h2>
             <h3 class="el l">МИССИЯ. ПЛАН. ДЕЙСТВИЯ</h3>
             <h4 class="el l p_mbnone">Стратегия продвижения бренда, проекта, бизнеса:</h4>
             <div class="con__con el l">
@@ -151,7 +155,7 @@
         </div>
     </div>
 
-    <div class="black__ser " id="black__ser">
+    <div class="black__ser " id="black__ser__1">
         <div class="container_new">
             <div class="ser__card sc11">
                 <h2>Мобильная съёмка</h2>
@@ -172,7 +176,7 @@
         </div>
     </div>
 
-    <div class="sec__smm">
+    <div class="sec__smm" id="sec__smm">
         <div class="container">
             <h2 class="el l">SMM продвижение</h2>
             <h3>ВЕДЕНИЕ СОЦСЕТЕЙ. ПУБЛИКАЦИЯ КОНТЕНТА <br>FACEBOOK. INSTAGRAM. TIKTOK. GOOGLE ADS</h3>
@@ -183,7 +187,7 @@
             <p>1 месяц (1 пост в день + 5 сториз) - <b>450€</b></p>
             <p id="NDS"><b>* Цены указаны без учета НДС 21%</b></p>
 
-            <h2>Продвижение</h2>
+            <h2 id="promotion">Продвижение</h2>
             <h3>ПЛАТНАЯ РЕКЛАМА<br>FACEBOOK. INSTAGRAM. TIKTOK. GOOGLE ADS</h3>
             <p id="newP"><b>Настройка бизнес аккаунта клиента с привязкой к рекламному аккаунту и счёту (прохождение ​верификации, привязка карты физлица или фирмы):</b></p>
             <p>Facebook + Instagram - <b>450€ (2 недели)</b></p>
@@ -210,7 +214,7 @@
         </div>
     </div>
 
-    <div class="sec__consultations">
+    <div class="sec__consultations" id="consultations">
         <div class="container">
             <h2>Консультации</h2>
             <h3>ПРОДВИЖЕНИЕ БРЕНДА ОФФЛАЙН И ОНЛАЙН</h3>
@@ -227,7 +231,7 @@
         </div>
     </div>
 
-    <div class="black__ser " id="black__ser">
+    <div class="black__ser " id="black__ser__2">
         <div class="container_new">
             <div class="ser__card sc21">
                 <h2>Эмигранту</h2>
@@ -248,7 +252,7 @@
         </div>
     </div>
 
-    <div class="sec__mentoring">
+    <div class="sec__mentoring" id="sec__mentoring">
         <div class="container">
             <h2>Обучение. Наставничество</h2>
             <h3>ПРОДВИЖЕНИЕ БРЕНДА ОФФЛАЙН И ОНЛАЙН</h3>
@@ -265,7 +269,7 @@
         </div>
     </div>
 
-    <div class="black__ser " id="black__ser">
+    <div class="black__ser " id="black__ser__3">
         <div class="container_new">
             <div class="ser__card sc31">
                 <h2>Создание своего видеокурса вариант 1</h2>
@@ -286,7 +290,7 @@
         </div>
     </div>
 
-    <div class="sec__mentoring">
+    <div class="sec__mentoring" id="sec__mentoring__2">
         <div class="container">
             <h2>Обучение. Наставничество</h2>
             <h3 id="m0">РАБОТА В ФОРМАТЕ ОНЛАЙН РАЗБОРОВ</h3>

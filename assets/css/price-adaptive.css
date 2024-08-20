@@ -1,0 +1,338 @@
+@media screen and (max-width: 1450px) {
+
+    /* global start */
+    .container h3 {
+        font-size: 1.7rem;
+        margin-bottom: 2.2rem;
+    }
+    .container p {
+        color: black;
+    }
+    .p_mbnone {
+        margin-bottom: 0;
+    }
+
+    b {
+        font-family: "Overpass", sans-serif;
+        font-weight: 900;
+    }
+    h4 {
+        margin: 0;
+        font-family: "Overpass", sans-serif;
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        font-weight: 900;
+    }
+    h3 {
+        margin: 0;
+        font-family: "Overpass", sans-serif;
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+    #mb-90 {
+        margin-bottom: 5.6rem;
+    }
+    #mb-45 {
+        margin-bottom: 2.2rem;
+    }
+    #m0 {
+        margin: 0;
+    }
+    #newP {
+        margin-top: 2.5rem;
+    }
+    #NDS {
+        margin-top: 2.5rem;
+        margin-bottom: 6.25rem;
+    }
+    /* global end */
+
+
+
+    /* sec__one start */
+    .sec__one .container {
+        height: inherit;
+
+    }
+    .grid__con {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5rem;
+    }
+    .text__sec__one p {
+        margin-bottom: 2.5rem;
+        font-size: 1.4rem;
+    }
+    .text__sec__one p b {
+        font-size: 1.3rem;
+        font-family: "Overpass", sans-serif;
+        font-weight: 900;
+
+    }
+    .sec__one__first__text {
+        margin: 0;
+    }
+    .ul-price li {
+        margin-left: 1.9rem;
+        font-family: "Overpass", sans-serif;
+        font-size: 1.3rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-style: normal;
+    }
+
+    .con__con p {
+        margin: 0;
+        font-family: "Overpass", sans-serif;
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+    }
+    .con__con p b {
+        margin: 0;
+        font-family: "Overpass", sans-serif;
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+    }
+
+    /* sec__one end */
+
+
+
+    /* Black Ser Start */
+    .black__ser {
+        background-color: rgb(0, 0, 0);
+        width: 100vw;
+        height: 31.25rem;
+
+        display: flex;
+    }
+    .container_new {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto auto;
+        width: 88.2rem;
+        height: 100%;
+    }
+    .ser__card {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6); /* Черный цвет с 50% прозрачностью */
+        background-blend-mode: darken; /* Режим наложения "затемнение" */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .sc11 {
+        background-image: url('../images/mobile-recording.jpg');
+    }
+    .sc12 {
+        background-image: url('../images/microphone.jpg');
+    }
+    .sc13 {
+        background-image: url('../images/mic.jpg');
+    }
+    .sc21 {
+        background-image: url('../images/mic-21.jpg');
+    }
+    .sc22 {
+        background-image: url('../images/table-22.jpg');
+    }
+    .sc23 {
+        background-image: url('../images/starbucks-23.jpg');
+    }
+    .sc31 {
+        background-image: url('../images/table32.jpg');
+    }
+    .sc32 {
+        background-image: url('../images/table-31.jpg');
+    }
+    .sc33 {
+        background-image: url('../images/interior-design.jpg');
+    }
+    .ser__card * {
+        color: white;
+        margin-left: 2.3rem;
+        margin-top: 2.3rem;
+        max-width: 80%;
+    }
+    .ser__card b {
+        margin: 0;
+    }
+    .ser__card p {
+        font-size: 1.4rem;
+        letter-spacing: 1.5px;
+    }
+    .ser__card h3 {
+        font-size: 1.4rem;
+    }
+    .ser__card h4 {
+        font-size: 1,7rem;
+        font-family: "Overpass", sans-serif;
+        font-weight: 900;
+    }
+
+    /* Black Ser End */
+
+    /* SMM start */
+    .sec__smm .container {
+        margin: auto auto;
+        max-width: 80rem;
+        min-width: 80rem;
+    }
+    .sec__smm .container h2 {
+        font-size: 4.81rem;
+        margin-top: 4.06rem;
+        font-weight: 900;
+        font-family: "Overpass", sans-serif;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .sec__smm .container p {
+        margin: 0;
+        font-family: "Overpass", sans-serif;
+        font-size: 1.38rem;
+        letter-spacing: 2px;
+    }
+    .sec__smm .container p b {margin: 0;
+        font-family: "Overpass", sans-serif;
+        font-size: 1.25rem;
+        letter-spacing: 2px;
+    }
+    /* SMM end */
+
+
+    /* Consultations start */
+    .sec__consultations .container {
+        margin: auto auto;
+        max-width: 80rem;
+        min-width: 80rem;
+    }
+    .sec__consultations .container h2 {
+        font-size: 4.81rem;
+        margin-top: 4.06rem;
+        font-weight: 900;
+        font-family: "Overpass", sans-serif;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .sec__consultations .container p {
+        margin: 0;
+        font-family: "Overpass", sans-serif;
+        font-size: 1.38rem;
+        letter-spacing: 2px;
+    }
+    .sec__consultations .container p b {
+        margin: 0;
+        font-family: "Overpass", sans-serif;
+        font-size: 1.25rem;
+        letter-spacing: 2px;
+    }
+    /* Consultations end */
+
+
+
+    /* sec__mentoring start*/
+    .sec__mentoring .container {
+        margin: auto auto;
+        max-width: 80rem;
+        min-width: 80rem;
+    }
+    .sec__mentoring .container h2 {
+        font-size: 4.81rem;
+        margin-top: 4.06rem;
+        font-weight: 900;
+        font-family: "Overpass", sans-serif;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .sec__mentoring .container ul li {
+        margin: 0;
+        margin-left: 1.88rem;
+        font-family: "Overpass", sans-serif;
+        font-size: 1.38rem;
+        letter-spacing: 2px;
+    }
+    .sec__mentoring .container p {
+        margin: 0;
+        font-family: "Overpass", sans-serif;
+        font-size: 1.38rem;
+        letter-spacing: 2px;
+    }
+    .sec__mentoring .container p b {
+        margin: 0;
+        font-family: "Overpass", sans-serif;
+        font-size: 1.25rem;
+        letter-spacing: 2px;
+    }
+    .mas__gr__center.price__page h3 {
+        margin-top: 3.75rem;
+        margin-bottom: 0;
+    }
+    .mas__gr__center.price__page a {
+        margin-top: 0.63rem;
+        margin-bottom: 3.75rem;
+    }
+
+    /* sec__mentoring end */
+
+
+    /* КОНТАКТЫ НАЧАЛО */
+
+    .contacts {
+        margin-top: 9.38rem;
+        display: flex;
+    }
+    .contacts .container {
+        width: 80rem;
+        min-width: inherit;
+        margin-top: 0;
+    }
+    .contacts .container h2 {
+        font-size: 4.38rem;
+        padding-top: 2rem;
+        margin-bottom: 9.38rem;
+    }
+    .contacts__g {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 0.63rem;
+
+    }
+    .con__left {
+        width: 32.5rem;
+    }
+    .con__left h3 {
+        font-size: 1.88rem;
+        margin-bottom: 0;
+    }
+    .con__left p {
+        font-size: 1.44rem;
+        margin-top: 0;
+        margin-bottom: 5rem;
+        color: #868686;
+        font-family: "Exo 2", sans-serif;
+        font-weight: 500;
+    }
+    .con__right {
+        display: flex;
+    }
+    .con__right img {
+        width: 16.75rem;
+        height: 16.75rem;
+        border-radius: 2.81rem;
+        display: block;
+        filter: drop-shadow(0 7px 8px #85807e7c);
+    }
+    .con__ph__first {
+        margin-top: 2.5rem;
+    }
+    .con__ph__second {
+        margin-top: -5rem;
+        margin-left: 5rem;
+    }
+    .contacts .container .header-subscribe {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 5rem;
+    }
+}

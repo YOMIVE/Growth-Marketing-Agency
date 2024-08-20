@@ -43,6 +43,12 @@
         background-repeat: no-repeat;
         background-position: center;
     }
+    .block__1.sec__seven {
+        background-image: url('../images/sec-seven-bg.png');
+    }
+    .block__1.sec__five {
+        background-image: url('../images/sec-five-bg.png');
+    }
     .block__1 .container {
         display: flex;
         position: relative;

@@ -14,15 +14,20 @@ b {
     font-family: "Overpass", sans-serif;
     font-weight: 900;
 }
+h2 {
+    margin-top: 3rem;
+}
 h4 {
     margin: 0;
     font-family: "Overpass", sans-serif;
     font-size: 19px;
     letter-spacing: 1px;
     font-weight: 900;
+    margin-top: 1rem;
 }
 h3 {
     margin: 0;
+    margin-top: 2rem;
     font-family: "Overpass", sans-serif;
     font-size: 20px;
     font-weight: 900;
@@ -51,6 +56,8 @@ h3 {
 .sec__one .container {
     height: inherit;
 
+}
+.sec__one.two .container h2 {
 }
 .grid__con {
     display: grid;
@@ -91,7 +98,9 @@ h3 {
     font-size: 20px;
     letter-spacing: 2px;
 }
-
+#strategy {
+    padding-top: 40px;
+}
 /* sec__one end */
 
 
@@ -101,7 +110,7 @@ h3 {
     background-color: rgb(0, 0, 0);
     width: 100vw;
     height: 500px;
-
+    margin-top: 3rem;
     display: flex;
 }
 .container_new {
@@ -172,6 +181,12 @@ h3 {
 /* Black Ser End */
 
 /* SMM start */
+#sec__smm {
+    padding-top: 30px;
+}
+#promotion {
+    padding-top: 30px;
+}
 .sec__smm .container {
     margin: auto auto;
     max-width: 1100px;
@@ -180,6 +195,7 @@ h3 {
 .sec__smm .container h2 {
     font-size: 77px;
     margin-top: 65px;
+    margin-top: 7rem;
     font-weight: 900;
     font-family: "Overpass", sans-serif;
     margin-top: 80px;
@@ -200,6 +216,9 @@ h3 {
 
 
 /* Consultations start */
+#consultations {
+    padding-top: 30px;
+}
 .sec__consultations .container {
     margin: auto auto;
     max-width: 1100px;
@@ -230,6 +249,9 @@ h3 {
 
 
 /* sec__mentoring start*/
+#sec__mentoring {
+    padding-top: 30px;
+}
 .sec__mentoring .container {
     margin: auto auto;
     max-width: 1100px;
@@ -270,7 +292,9 @@ h3 {
     margin-top: 10px;
     margin-bottom: 60px;
 }
-
+#sec__mentoring__2 {
+    padding-top: 30px;
+}
 /* sec__mentoring end */
 
 

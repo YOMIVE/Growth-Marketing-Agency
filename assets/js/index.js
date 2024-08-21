@@ -94,7 +94,7 @@ function scrollToStrategy() {
     }
 }
 function scrollToblack__ser__1() {
-    var element = document.getElementById("black__ser__1");
+    var element = document.getElementById("marketing-for-everyone-1");
     if (element) {
         element.scrollIntoView();
     }

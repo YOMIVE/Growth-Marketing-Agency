@@ -524,9 +524,6 @@
     .block__1.sec__five {
         background-image: url('../images/sec-five-bg.png');
     }
-    .sec__five.block__1.bl2 {
-        margin-top: 10rem;
-    }
     .block__1 .container {
         display: flex;
         position: relative;

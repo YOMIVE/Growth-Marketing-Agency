@@ -203,6 +203,10 @@
         font-size: 8rem;
         padding-top: 6rem;
     }
+    
+    .sec__five.block__1.bl2 {
+        margin-top: 7rem;
+    }
     .grid__con {
         display: block;
         /* grid-template-columns: 1fr;

@@ -553,6 +553,7 @@
     .contacts {
         margin-top: 18rem;
         display: flex;
+        height: 150rem;
     }
     .contacts .container {
         width: 85vw;

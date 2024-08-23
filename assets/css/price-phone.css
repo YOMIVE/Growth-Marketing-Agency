@@ -1,4 +1,24 @@
+
+
 @media screen and (max-width: 450px) {
+    #newP {
+        margin-top: 4rem;
+    }
+    #p0 {
+        padding: 0;
+        margin-top: 3rem;
+    }
+    #NDS {
+        margin-top: 4rem;
+        margin-bottom: 7rem;
+    }
+    #mb-90 {
+        margin-bottom: 7rem;
+    }
+    #mb-45 {
+        margin-bottom: 4rem;
+    }
+
     /* GLOBAL START */
     .for__phone__p {
         display: block;
@@ -110,10 +130,394 @@
     }
     /* GLOBAL END */
 
+
+    /* HEADER START */
+    .container {
+        margin: 0 auto;
+        min-width: 92vw;
+    }
+
+    .header {
+        background-image: none;
+        
+        width: 100vw;
+        height: 150rem;
+    }
+    .header-logo {
+        display: none;
+    }
+    .container h1 {
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 17rem;
+        color: rgb(0, 0, 0);
+        
+        margin-top: 20rem;
+        padding-left: 5rem;
+        line-height: -130px;
+    }
+    .header .container p {
+        font-size: 4rem;
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        color: rgb(0, 0, 0);
+        padding-left: 5rem;
+        margin-top: 7rem;
+    }
+    .header-subscribe {
+        padding-left: 4.5rem;
+        width: 26rem;
+        margin-top: 7rem;
+    }
+    .link__2 {
+        padding-left: 1rem;
+    }
+    .header-subscribe a img {
+        width: 9rem;
+    }
+    .el.b.ph__sec__one__2 {
+        margin-top: 20rem;
+        margin-left: 2rem;
+    }
+    /* HEADER END */
+
+
+    /* sec__one start */
+    .sec__one .container {
+        height: inherit;
+    }
+    .sec__one {
+        display: flex;
+        width: 100vw;
+        height: 530rem;
+    }
+    .grid__con {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 5rem;
+    }
+    .text__sec__one p {
+        margin-bottom: 2.5rem;
+        font-size: 4rem;
+    }
+    .text__sec__one p b {
+        font-size: 4rem;
+        font-family: "Overpass", sans-serif;
+        font-family: "Exo 2", sans-serif;
+        font-weight: 700;
+    }
+    .sec__one__first__text {
+        margin: 0;
+    }
+    .ul-price li {
+        margin-left: 7rem;
+        font-family: "Overpass", sans-serif;
+        font-size: 4rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-style: normal;
+    }
+    .con__con h2, 
+    .text__sec__one h2 {
+        font-size: 8rem;
+    }
+    .con__con h3,
+    .text__sec__one h3, 
+    .container h3 {
+        font-size: 6rem;
+    }
+    
+    .con__con h4,
+    .text__sec__one h4,
+    .container h4 {
+        font-size: 4rem;
+        font-family: "Exo 2", sans-serif;
+    }
+
+    .con__con p {
+        margin: 0;
+        font-family: "Exo 2", sans-serif;
+        font-size: 4rem;
+        letter-spacing: 2px;
+    }
+    .con__con p b {
+        margin: 0;
+        font-family: "Exo 2", sans-serif;
+        font-size: 4rem;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    /* sec__one end */
+
+
+
+
+
+    /* sec__one.two start */
+    .sec__one.two {
+        height: 230rem;
+    }
+    .photos__sec__one .ph__sec__one__2.sec__two__last__img {
+        margin-left: 0;
+    }
+    .photos__sec__one .ph__sec__one__2.sec__two__last__img.ph__con__2__img {
+        margin-left: 3rem;
+    }
+    .ph__con__2__img {
+        margin-left: 3rem;
+    }
+
+    /* sec__one.two end */
+
+
+
+
+
+    /* Black Ser Start */
+    .black__ser {
+        background-color: rgb(0, 0, 0);
+        width: 100vw;
+        height: 300rem; /* Высота на весь экран */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_new {
+        display: flex;
+        flex-direction: column; /* Располагаем элементы вертикально */
+        margin: auto auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    .ser__card {
+        width: 100%;
+        height: 100rem; /* Равномерное распределение высоты */
+        background-color: rgba(0, 0, 0, 0.6); /* Черный цвет с 50% прозрачностью */
+        background-blend-mode: darken; /* Режим наложения "затемнение" */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Центрируем содержимое по вертикали */
+    }
+    .sc11 {
+        background-image: url('../images/microphone.jpg');
+    }
+    .sc12 {
+        background-image: url('../images/mobile-recording.jpg');
+    }
+    .sc13 {
+        background-image: url('../images/mic.jpg');
+    }
+    .sc21 {
+        background-image: url('../images/mic-21.jpg');
+    }
+    .sc22 {
+        background-image: url('../images/table-22.jpg');
+    }
+    .sc23 {
+        background-image: url('../images/starbucks-23.jpg');
+    }
+    .sc31 {
+        background-image: url('../images/table32.jpg');
+    }
+    .sc32 {
+        background-image: url('../images/table-31.jpg');
+    }
+    .sc33 {
+        background-image: url('../images/interior-design.jpg');
+    }
+    .ser__card * {
+        color: white;
+        margin-left: 2.3rem;
+        margin-top: 2.3rem;
+        max-width: 80%;
+    }
+    .ser__card b {
+        margin: 0;
+    }
+    .ser__card h2 {
+        font-size: 6rem;
+        letter-spacing: 1.5px;
+        max-width: 90%;
+        margin-left: 8rem;
+        margin-bottom: 4rem;
+    }
+    .ser__card p {
+        font-size: 4rem;
+        letter-spacing: 1.5px;
+        max-width: 90%;
+        margin-left: 8rem;
+        margin-bottom: 4rem;
+    }
+    .ser__card h3 {
+        font-size: 4rem;
+        max-width: 90%;
+        margin-left: 8rem;
+        margin-bottom: 4rem;
+    }
+    .ser__card h4 {
+        font-size: 4rem;
+        font-family: "Overpass", sans-serif;
+        font-weight: 900;
+        max-width: 90%;
+        margin-left: 8rem;
+        margin-bottom: 4rem;
+    }
+
+    /* Black Ser End */
+
+
+
+
+    /* SMM start */
+    .sec__smm .container {
+        margin: auto auto;
+        max-width: 85vw;
+        min-width: 85vw;
+        margin-bottom: 20rem;
+    }
+    .sec__smm .container h2 {
+        font-size: 8rem;
+        margin-top: 4.06rem;
+        font-weight: 900;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .sec__smm .container h3 {
+        font-size: 5rem;
+        margin-top: 4.06rem;
+        font-weight: 900;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .sec__smm .container p {
+        margin: 0;
+        font-family: "Exo 2", sans-serif;
+        font-size: 4rem;
+        letter-spacing: 2px;
+        padding: 0;
+    }
+    .sec__smm .container p b {
+        margin: 0;
+        font-family: "Exo 2", sans-serif;
+        font-size: 4rem;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    /* SMM end */
+
+
+
+
+    /* Consultations start */
+    .sec__consultations .container {
+        margin: auto auto;
+        max-width: 85vw;
+        min-width: 85vw;
+    }
+    .sec__consultations .container h2 {
+        font-size: 8rem;
+        margin-top: 4.06rem;
+        font-weight: 900;
+        font-family: "Overpass", sans-serif;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .sec__consultations .container h3 {
+        font-size: 5rem;
+        margin-top: 4.06rem;
+        font-weight: 900;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .sec__consultations .container p {
+        margin: 0;
+        font-family: "Exo 2", sans-serif;
+        font-size: 4rem;
+        letter-spacing: 2px;
+        padding: 0;
+    }
+    .sec__consultations .container p b {
+        margin: 0;
+        font-family: "Exo 2", sans-serif;
+        font-size: 4rem;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    /* Consultations end */
+
+
+
+
+    /* sec__mentoring start*/
+    .sec__mentoring .container {
+        margin: auto auto;
+        max-width: 85vw;
+        min-width: 85vw;
+    }
+    .sec__mentoring .container h2 {
+        font-size: 8rem;
+        margin-top: 4.06rem;
+        font-weight: 900;
+        font-family: "Overpass", sans-serif;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .sec__mentoring .container h3 {
+        font-size: 5rem;
+        margin-top: 4.06rem;
+        font-weight: 900;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .sec__mentoring .container ul li {
+        margin: 0;
+        margin-left: 7rem;
+        font-family: "Exo 2", sans-serif;
+        font-size: 4rem;
+        letter-spacing: 2px;
+    }
+    .sec__mentoring .container p {
+        margin: 0;
+        font-family: "Exo 2", sans-serif;
+        font-size: 4rem;
+        letter-spacing: 2px;
+        padding: 0;
+    }
+    .sec__mentoring .container p b {
+        margin: 0;
+        font-family: "Exo 2", sans-serif;
+        font-size: 4rem;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .mas__gr__center.price__page h3 {
+        margin-top: 10rem;
+        margin-bottom: 0;
+        font-family: "Exo 2", sans-serif;
+    }
+    .mas__gr__center.price__page a {
+        margin-top: 4rem;
+        margin-bottom: 10rem;
+    }
+
+    /* sec__mentoring end */
+
+
+
+
     /* КОНТАКТЫ НАЧАЛО */
     .contacts {
         margin-top: 18rem;
         display: flex;
+        height: 150rem;
     }
     .contacts .container {
         width: 85vw;

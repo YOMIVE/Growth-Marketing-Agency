@@ -50,7 +50,10 @@ h3 {
 }
 /* global end */
 
-
+/* header start */
+.header .container p {
+    color: white;
+}
 
 /* sec__one start */
 .sec__one .container {

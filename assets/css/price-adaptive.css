@@ -193,7 +193,8 @@
         font-size: 1.38rem;
         letter-spacing: 2px;
     }
-    .sec__smm .container p b {margin: 0;
+    .sec__smm .container p b {
+        margin: 0;
         font-family: "Overpass", sans-serif;
         font-size: 1.25rem;
         letter-spacing: 2px;

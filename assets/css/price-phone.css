@@ -269,7 +269,12 @@
     .ph__con__2__img {
         margin-left: 3rem;
     }
-
+    .sec__one p {
+        padding: 0;
+        font-family: "Exo 2", sans-serif;
+    }
+    .sec__one ul li {
+    }
     /* sec__one.two end */
 
 

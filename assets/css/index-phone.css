@@ -267,7 +267,18 @@
 
 
 
+    /* sec__one start */
+    .photos__sec__one .ph__sec__one__2.sec__two__last__img {
+        margin-left: 0;
+    }
+    .photos__sec__one .ph__sec__one__2.sec__two__last__img.ph__con__2__img {
+        margin-left: 3rem;
+    }
+    .ph__con__2__img {
+        margin-left: 3rem;
+    }
 
+    /* sec__one.two end */
 
 
     
@@ -429,7 +440,6 @@
 
 
     /* ABOUT ME */
-
     .about {
         display: flex;
     }
@@ -544,6 +554,9 @@
     }
     .about__first__g img {
         display: none;
+    }
+    .about__center__img {
+        margin-bottom: 7rem;
     }
 
 
